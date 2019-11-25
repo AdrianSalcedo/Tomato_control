@@ -45,9 +45,7 @@ c_1 = 0.1
 c_2 = 0.1
 c_3 = 0.1
 
-name_file_1 = 'figure_1_sir_log.eps'
-name_file_2 = 'figure_2_sir_log.eps'
-name_file_3 = 'figure_3_sir_log.eps'
+name_file_1 = 'figure_1_tomato_controls.pdf'
 #
 
 fbsm = ForwardBackwardSweep()
