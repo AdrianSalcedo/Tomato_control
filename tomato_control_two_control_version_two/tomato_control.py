@@ -83,9 +83,9 @@ class OptimalControlProblem(object):
         self.c_2 = 0.1
         self.c_3 = 0.1
         self.u_1_lower = 0.0
-        self.u_1_upper = 0.05
+        self.u_1_upper = 0.6
         self.u_2_lower = 0.0
-        self.u_2_upper = 0.06
+        self.u_2_upper = 0.5
         #self.u_3_lower = 0.0
         #self.u_3_upper = 0.06
     

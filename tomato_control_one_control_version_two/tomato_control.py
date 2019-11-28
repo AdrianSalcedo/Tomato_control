@@ -85,7 +85,7 @@ class OptimalControlProblem(object):
         self.u_2_lower = 0.0
         self.u_2_upper = 0.06
         self.u_3_lower = 0.0
-        self.u_3_upper = 0.06
+        self.u_3_upper = 0.05
     
     def set_parameters(self, beta, a, b, psi, gamma, theta, mu,
                        A_1, A_2, A_3, c_3,

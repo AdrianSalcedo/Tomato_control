@@ -45,9 +45,8 @@ c_1 = 0.1
 c_2 = 0.1
 c_3 = 0.1
 
-name_file_1 = 'figure_1_sir_log.eps'
-name_file_2 = 'figure_2_sir_log.eps'
-name_file_3 = 'figure_3_sir_log.eps'
+name_file_1 = 'figure_1_tomato_two_controls.pdf'
+
 #
 
 fbsm = ForwardBackwardSweep()
@@ -63,7 +62,7 @@ x_wc = fbsm.runge_kutta_forward(fbsm.u)
 mpl.style.use('ggplot')
 # plt.ion()
 # n_whole = fbsm.n_whole
-ax1 = plt.subplot2grid((2, 2), (0, 0), rowspan=2)
+ax1 = plt.subplot2grid((3, 2), (0, 0), rowspan=3)
 ax1.plot(t, x_wc[:, 2],
          label="Without control",
          color='darkgreen'
@@ -75,24 +74,19 @@ ax1.set_ylabel(r'Infected plants ratio $I_p$')
 ax1.set_xlabel(r'Time (days)')
 ax1.legend(loc=0)
 
-ax2 = plt.subplot2grid((2, 2), (0, 1))
+ax2 = plt.subplot2grid((3, 2), (0, 1))
 ax2.plot(t, u[:, 0],
-         label="$u_1(t)$ : Remove latent plant",
+         label="$u_1(t)$ : Remove latent plants",
          color='orange')
-ax2.plot(t, u[:, 1],
-         label="$u_2(t)$ : Remove infected plant",
+ax2.set_ylabel(r'$u_1(t)$')
+ax2.set_xlabel(r'Time(days)')
+
+ax4 = plt.subplot2grid((3, 2), (2, 1))
+ax4.plot(t, u[:, 1],
+         label="$u_2(t)$ : Remove infectious plants",
          color='darkgreen')
-ax2.legend(loc=0)
-#
-ax3 = plt.subplot2grid((2, 2), (1, 1))
-ax3.plot(t, x_wc[:, 1],
-         label="Without control",
-         color='darkgreen'
-         )
-ax3.plot(t, x[:, 1],
-         label="Optimal controlled",
-         color='orange')
-ax3.set_ylabel(r'$L_p(t)$')
+ax4.set_ylabel(r'$u_2(t)$')
+ax4.set_xlabel(r'Time(days)')
 
 plt.tight_layout()
 #
