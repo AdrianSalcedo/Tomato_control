@@ -44,7 +44,11 @@ A_3 = 0.0
 
 c_3 = 0.1
 
+<<<<<<< HEAD
 name_file_1 = 'figure_1_tomato_one_control.eps'
+=======
+name_file_1 = 'figure_1_tomato_one_control.pdf'
+>>>>>>> 8b296fbe19fe88c04da51ab9643ccb674d6ea233
 
 #
 
@@ -73,11 +77,19 @@ ax1.set_ylabel(r'Infected plants ratio $I_p$')
 ax1.set_xlabel(r'Time (days)')
 ax1.legend(loc=0)
 
+<<<<<<< HEAD
 ax2 = plt.subplot2grid((3, 2), (0, 1), rowspan=3)
 ax2.plot(t, u[:, 0],
          label="$u_3(t)$ ",
          color='orange')
 ax2.set_ylabel(r'$u_3(t): Fumigation$')
+=======
+ax2 = plt.subplot2grid((3, 2), (1, 1))
+ax2.plot(t, u[:, 0],
+         label="$u_3(t)$ : Fumigation",
+         color='orange')
+ax2.set_ylabel(r'$u_3(t)$')
+>>>>>>> 8b296fbe19fe88c04da51ab9643ccb674d6ea233
 ax2.set_xlabel(r'Time(days)')
 
 plt.tight_layout()
