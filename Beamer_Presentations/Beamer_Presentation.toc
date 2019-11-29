@@ -2,6 +2,6 @@
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
 \beamer@sectionintoc {2}{Objetive}{5}{0}{2}
 \beamer@sectionintoc {3}{Epidemical Model}{6}{0}{3}
-\beamer@sectionintoc {4}{Controlled Model}{20}{0}{4}
-\beamer@subsectionintoc {4}{2}{Plant model}{20}{0}{4}
+\beamer@subsectionintoc {3}{2}{Controlled Model}{20}{0}{3}
+\beamer@sectionintoc {4}{Existence Theory}{22}{0}{4}
 \beamer@sectionintoc {5}{Simulations}{30}{0}{5}
