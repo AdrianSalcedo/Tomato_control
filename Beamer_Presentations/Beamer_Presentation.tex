@@ -108,7 +108,8 @@ subgridcolor=black!60]{eso-pic}
 \begin{frame}{Contents}{}
 \tableofcontents
 \end{frame}
-
+%----______________________________
+% [<+->]: itemize animation
 %-------------------------------------------------------
 %-------------------------------------------------------
 
@@ -116,27 +117,25 @@ subgridcolor=black!60]{eso-pic}
 
 \begin{frame}
 \frametitle{Tomato Leaf Curl Virus}
-\begin{textblock*}{60mm}(35mm,25mm)
-    \includegraphics[width=\linewidth]{Feathergraphics/Mosca_Blanca.eps}
-\end{textblock*}
-\end{frame}
+	\begin{textblock*}{40mm}(5mm,20mm)
+		\includegraphics[width=\linewidth]{Feathergraphics/Tomato_plant.eps}
+	\end{textblock*}
 
-\begin{frame}	
-	\begin{textblock*}{60mm}(5mm,20mm)
-			\includegraphics[width=\linewidth]{Feathergraphics/Tomato_plant.eps}
-\end{textblock*}
-\begin{textblock*}{40mm}(80mm,20mm)
-			\includegraphics[width=\linewidth]{Feathergraphics/TYLCV_3_bush.eps}
-\end{textblock*}	
+	\begin{textblock*}{30mm}(85mm,20mm)
+		\includegraphics[width=\linewidth]{Feathergraphics/TYLCV_3_bush.eps}
+	\end{textblock*}
+	\begin{textblock*}{45mm}(30mm,60mm)
+		\includegraphics[width=\linewidth]{Feathergraphics/Mosca_Blanca.eps}
+	\end{textblock*}
 \end{frame}
 
 \begin{frame}
-\begin{textblock*}{40mm}(10mm,25mm)
-			\includegraphics[width=\linewidth]{Feathergraphics/Malvastrum_coromancalianum_L.eps}
-\end{textblock*}
-\begin{textblock*}{60mm}(60mm,25mm)
-			\includegraphics[width=\linewidth]{Feathergraphics/Euphorbia_geniculata_Ort.eps}
-\end{textblock*}	
+	\begin{textblock*}{45mm}(10mm,25mm)
+				\includegraphics[width=\linewidth]{Feathergraphics/Malvastrum_coromancalianum_L.eps}
+	\end{textblock*}
+	\begin{textblock*}{50mm}(65mm,25mm)
+				\includegraphics[width=\linewidth]{Feathergraphics/Euphorbia_geniculata_Ort.eps}
+	\end{textblock*}	
 \end{frame}
 
 \section{Objetive}
@@ -162,13 +161,12 @@ subgridcolor=black!60]{eso-pic}
 \begin{textblock*}{60mm}(65mm,25mm)
     \includegraphics[width=\linewidth]{Feathergraphics/plant_diagram.eps}
 \end{textblock*}
-\begin{textblock*}{60mm}(5mm,25mm)
+\begin{textblock*}{55mm}(5mm,25mm)
 	\begin{graybox}{Hypothesis:}
 		
 		\begin{itemize}
-			\item Susceptible plants will become infected when an infected whitefly feeds on it, both latent and infected we will remove and re-plant susceptible plants
-			\item Whiteflies become infected when they feed on an infected plant,
-			\item there will be entry of whiteflies that come from alternative hosts.
+			\item infection by infeted plants and vectors,
+			\item output and input for plants and vectors. 
 		\end{itemize}
 		\end{graybox}	
 \end{textblock*}
@@ -176,19 +174,57 @@ subgridcolor=black!60]{eso-pic}
 
 \begin{frame}
 \frametitle{Others Controls}
-\begin{itemize}
-	\item Cultural Control.
-	\item Physical barriers.
-	\item Planting dates.
-	\item Removal of infested plants.
-	\item Host plant resistance.
-	\item Biological control.
-\end{itemize}
+	\begin{textblock*}{40mm}(2mm,20mm)
+
+		\begin{graybox}{Cultural Control}
+			\begin{itemize}
+				\item<1-> physical barriers,
+				\item<2-> planting dates,
+				\item<3-> removal of infested plants,
+				\item<4-> host plant resistance.
+			\end{itemize}
+		\end{graybox}
+		\end{textblock*}
+
+	\begin{textblock*}{40mm}(43mm,20mm)
+		\begin{graybox}{Biological control}
+			\begin{itemize}
+				\item<5-> Parasitoids,
+				\item<6-> predators
+				\item<7-> fungi.
+			\end{itemize}
+		\end{graybox}
+	\end{textblock*}
+
+	\begin{textblock*}{42mm}(85mm,20mm)
+		\begin{graybox}{Insecticide}
+			\begin{itemize}
+				\item<8-> Pymetrozine,
+				\item<9-> flupyradifurone,
+				\item<10-> cyazypyr.
+			\end{itemize}
+		\end{graybox}
+\end{textblock*}
+
+\begin{textblock*}{90mm}(45mm,47mm)	
+	\begin{bibunit}[abbrv]
+		\nocite{Shun-xiang2001}
+		\putbib
+	\end{bibunit}
+\end{textblock*}
+
+\begin{textblock*}{120mm}(10mm,70mm)
+	\begin{bibunit}[abbrv]
+		\nocite{Smith2014}
+		\putbib
+	\end{bibunit}
+\end{textblock*}
+
 \end{frame}
 
 \begin{frame}	
-		\begin{textblock*}{62mm}(2mm,10mm)
-			\begin{greenbox}{Consider the following ordinary differential equations:}
+		\begin{textblock*}{62mm}(2mm,15mm)
+			\begin{greenbox}{}
 				\begin{align*}
             		\frac{dS_p}{dt} &=-\beta_p S_p I_v +\textcolor{capri}{r}
              			(L_p +  I_p),\\
@@ -197,13 +233,13 @@ subgridcolor=black!60]{eso-pic}
             		\frac{dI_p}{dt} &= b L_p - \textcolor{capri}{r} I_p,\\
            			\frac{dS_v}{dt} &=-\beta_v S_v I_p - \textcolor{cadmiumorange}{\gamma} S_v   -(1-\theta)\mu,\\
             		\frac{dI_v}{dt} &=  \beta_v S_v I_p -\textcolor{cadmiumorange}{\gamma} I_v	-\theta\mu,\\
-								S_p(0) &= S_p_0, L_p(0) = L_p_0, I_p(0) = I_p_0,\\
-								S_v(0) &= S_v_0, I_v(0) = I_v_0.
+								S_p(0) &= S_{p_0}, L_p(0) = L_{p_0}, I_p(0) = I_{p_0},\\
+								S_v(0) &= S_{v_0}, I_v(0) = I_{v_0}.
 				\end{align*}
 			\end{greenbox}
 		\end{textblock*}
 	
-	\begin{textblock*}{60mm}(65mm,10mm)
+	\begin{textblock*}{60mm}(65mm,15mm)
 		\begin{tabular}{|c |c |l |} 
 				\hline
 				Par. & Value & Descrip. \\ [0.5ex] 
@@ -225,7 +261,7 @@ subgridcolor=black!60]{eso-pic}
 	\end{tabular}
 	\end{textblock*}
 
-	\begin{textblock*}{50mm}(70mm,50mm)
+	\begin{textblock*}{50mm}(70mm,55mm)
     	\includegraphics[width=\linewidth]{Feathergraphics/Simulation_data.eps}
 	\end{textblock*}
 \end{frame}
@@ -233,14 +269,27 @@ subgridcolor=black!60]{eso-pic}
 \begin{frame}
 	\begin{textblock*}{50mm}(5mm,15mm)
 		\begin{greenbox}{}
-			Computing the $R_0$ we have,
 			\begin{equation*}
 				R_0=\sqrt{\frac{\beta_v\mu b\beta_p}{r^2(r+b)\gamma}}.
 			\end{equation*}
 		\end{greenbox}
+	
+	\begin{textblock*}{70mm}(5mm,45mm)
+		\begin{yellowbox}{}
+			If $R_0<1,$
+			\begin{equation*}
+			\lim\limits_{t\rightarrow \infty}(S_p,L_p,I_p,S_v,I_v)=(N_p,0,0,\frac{\mu}{\gamma},0).
+			\end{equation*}
+				If $R_0<1,$
+			\begin{equation*}
+			\lim\limits_{t\rightarrow \infty}(S_p,L_p,I_p,S_v,I_v)=(S_p^*,L_p^*,I_p^*,S_v^*,I_v^*).
+			\end{equation*}
+		\end{yellowbox}
+	\end{textblock*}
+	
 		
 	\end{textblock*}
-	\begin{textblock*}{50mm}(70mm,15mm)
+	\begin{textblock*}{50mm}(77mm,15mm)
 		\includegraphics[width=\linewidth]{Feathergraphics/Tomato_simulation_1.eps}
 		\includegraphics[width=\linewidth]{Feathergraphics/Tomato_simulation_2.eps}
 	\end{textblock*}	
@@ -253,9 +302,7 @@ subgridcolor=black!60]{eso-pic}
 \section{Controlled Model}
 \subsection{Plant model}
 \begin{frame}{Plant Model with control}{Tomato Leaf Curl Virus Disease Using an Epidemiological Model}
-The controlled system is the following:
 
-    \begin{equation*}
         \begin{align*}
             \frac{dS_p}{dt} &=-\beta_p S_p I_v +(r +u_1)L_p + (r + u_2) I_p,\\
             \frac{dL_p}{dt} &=\beta_p S_p I_v -b L_p -(r + u_1)L_p,\\
@@ -263,44 +310,35 @@ The controlled system is the following:
             \frac{dS_v}{dt} &=-\beta_v S_v I_p - (\gamma+u_3) S_v -(1-\theta)\mu,\\
             \frac{dI_v}{dt} &=\beta_v S_v I_p -(\gamma+u_3) I_v -\theta\mu,				
         \end{align*}
-    \end{equation*}
 \end{frame}
 
-\begin{frame}
-	With the cost functional:
-	\begin{equation*}
-	\int_{0}^T
-	\left[
-	A_1 I_p(t) + A_2 L_p(t) + A_3 I_v(t)
-	+ c_1 u_1(t)^2 + c_2 u_2(t)^2 + c_3 u_3(t)^2
-	\right] dt.
-	\end{equation*}
-		
-\end{frame}
 
 \begin{frame}
-\frametitle{Case with one controls}
-\begin{figure}
-	\centering	
-	\includegraphics[scale=0.5]{Feathergraphics/figure_1_tomato_one_control.eps}
-\end{figure}	
+	\begin{textblock*}{120mm}(2mm,12mm)
+		Minimize
+		\begin{align*}
+			J(u_1,u_2,u_3)&=\int_{0}^T	A_1 I_p(t) + A_2 L_p(t) + A_3 I_v(t)
+			+ c_1 u_1(t)^2+ c_2 u_2(t)^2\\ &+ c_3 u_3(t)^2 dt,
+		\end{align*}
+	\end{textblock*}
+	\begin{textblock*}{20mm}(2mm,32mm)
+		subject to
+	\end{textblock*}
+
+	\begin{textblock*}{120mm}(20mm,40mm)
+		\hspace{50mm}	$\left\{ \begin{array}{ll}
+%				\begin{align*}
+				\frac{dS_p}{dt} = &-\beta_p S_p I_v +(r +u_1)L_p + (r + u_2) I_p,\\\\
+				\frac{dL_p}{dt} =&\beta_p S_p I_v -b L_p -(r + u_1)L_p,\\\\
+				\frac{dI_p}{dt} =& b L_p - (r + u_2) I_p,\\\\
+				\frac{dS_v}{dt} =&-\beta_v S_v I_p - (\gamma+u_3) S_v -(1-\theta)\mu,\\\\
+				\frac{dI_v}{dt} =&\beta_v S_v I_p -(\gamma+u_3) I_v -\theta\mu,\\\\
+				S_p(0) &= S_{p_0}, L_p(0) = L_{p_0},I_p(0) = I_{p_0},S_v(0) = S_{v_0}, I_v(0) = I_{v_0}.			
+%				\end{align*}
+			\end{array}\right.$
+	\end{textblock*}
 \end{frame}
 
-\begin{frame}
-\frametitle{Case with two controls}
-\begin{figure}
-	\centering	
-	\includegraphics[scale=0.5]{Feathergraphics/two_control_simulation_2.eps}
-\end{figure}	
-\end{frame}
-
-\begin{frame}
-\begin{figure}
-\frametitle{Case with three controls}
-	\centering	
-	\includegraphics[scale=0.5]{Feathergraphics/three_controls_simulation_1.eps}
-\end{figure}	
-\end{frame}
 %-------------------------------------------------------
 %-------------------------------------------------------
 %
@@ -310,98 +348,94 @@ The controlled system is the following:
 %-------------------------------------------------------
 \begin{frame}
 
-\begin{textblock*}{65mm}(3mm,10mm)
+\begin{textblock*}{65mm}(3mm,15mm)
 	\begin{greenbox}{}
-		Let $T\in (0,\infty)$ be fixed. Consider the control system:
+		$T\in (0,\infty)$ be fixed. Consider the control system:
 
 		$$\left\{ \begin{array}{l}
-		\dot{X}(s)=f(s,u(s),X(s))\,\,s\in [t,T], \\
-		X(t)=x,\\
+		\dot{x}(s)=f(s,u(s),x(s))\,\,s\in [t_0,T], \\
+		x(t_0)=x_0,\\
 		\end{array}
 		\right.$$
 
 		with terminal state constraint
-		$$X(T;t,x,u(\cdot))\in M,$$
+		$$x(T;t_0,x_0,u(\cdot))\in M,$$
 		where $M\subseteq \mathbb{R}^n$ is fixed.
 	\end{greenbox}
 \end{textblock*}
 
-\begin{textblock*}{55mm}(70mm,10mm)
+\begin{textblock*}{55mm}(70mm,15mm)
 	\begin{yellowbox}{}
-		Any map $M:\mathbb{R}_{+}\rightarrow 2^{\mathbb{R}^n}$ is called a moving target in $\mathbb{R}^n$ if for any $t\in \mathbb{R}_{+}$, $M(t)$ is a measurable set in $			\mathbb{R}^n$.
+		$M:\mathbb{R}_{+}\rightarrow 2^{\mathbb{R}^n}$ is a moving target in $\mathbb{R}^n$ if for any $t\in \mathbb{R}_{+}$, $M(t)$ is a measurable.
 	\end{yellowbox}
 \end{textblock*}
-\begin{textblock*}{100mm}(10mm,70mm)
-	\begin{yellowbox}{}
+
+\end{frame}
+
+
+\begin{frame}
+	\begin{textblock*}{120mm}(5mm,15mm)
+		\begin{yellowbox}{}
+			$$J(t_0,x_0;u(\cdot))=\int_{t_0}^{T}g(s,u(s),x(s))ds+h(T,x(T))\equiv J^T(t_0,x_0,u(\cdot)).$$
+		\end{yellowbox}
+	\end{textblock*}
+	\begin{textblock*}{110mm}(10mm,40mm)
+		\begin{graybox}{Problem $(OC)^T$}
+			Given $(t_0,x_0)\in \mathbb{R}_{+}\times \mathbb{R}^n$ with $\tilde{\mathcal{U}}^M_{x_0}[t_0,T]\neq\emptyset$, find a $\bar{u}(\cdot)\in \tilde{\mathcal{U}}^M_{x_0}[t_0,T]$ such that
+			
+			\begin{equation*}
+			J^T(t_0,x_0;\bar{u}(\cdot))=\inf_{u(\cdot)\in \tilde{\mathcal{U}}^M_{x_0}[t_0,T]} J^T(t_0,x_0;u(\cdot)).
+			\end{equation*}
 		
-	\end{yellowbox}
-\end{textblock*}
-\end{frame}
-
-
-\begin{frame}
-
-\begin{textblock*}{110mm}(10mm,10mm)
-	\begin{graybox}{Problem (C)}
-		Let $M(\cdot)$ be a moving target set in $\mathbb{R}^n$. For given $(t,x)\in \mathbb{R}_{+}\times \mathbb{R}^n$, find a control $u(\cdot)\in \mathcal{U}[		t,	\infty)$ 		such that for some $\tau \geq t$,
-
-		$$X(\tau;t,x,u(\cdot))\in M(\tau).$$
-	\end{graybox}
-\end{textblock*}
-
+		\end{graybox}
+	\end{textblock*}
 \end{frame}
 
 \begin{frame}
-\begin{textblock*}{120mm}(5mm,10mm)
+\begin{textblock*}{120mm}(5mm,15mm)
 	\begin{graybox}{(C1)}
-		The map $f:\mathbb{R}_{+}\times U\times \mathbb{R}^n\rightarrow \mathbb{R}^n$ is measurable and there exists a constant $L>0$ such that
-				$$\left\{ \begin{array}{l}
-				|f(t,u,x_1)-f(t,u,x_2)|\leq L|x_1-x_2|,\, (t,u)\in \mathbb{R}_{+}\times U,\, x_1,x_2\in \mathbb{R}^n,\\
-				|f(t,u,0)|\leq L,\,\mbox{for every}\,(t,u)\in \mathbb{R}_{+}\times U .\\
-				\end{array}
-				\right.$$
+		$f:\mathbb{R}_{+}\times U\times \mathbb{R}^n\rightarrow \mathbb{R}^n$ is measurable, satisfies a lipchitz condition in $x$, and $|f(t,u,0)|\leq L,\,\mbox{for every}\,(t,u)\in \mathbb{R}_{+}\times U .$
+				
 	\end{graybox}
 \end{textblock*}
 
-\begin{textblock*}{120mm}(5mm,43mm)
+\begin{textblock*}{120mm}(5mm,40mm)
+	 $\omega:\mathbb{R}_{+}\times\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$, increasing, and $\omega(r,0)=0$ for every $r\geq 0$.
+\end{textblock*}
+
+\begin{textblock*}{120mm}(5mm,53mm)
 	\begin{graybox}{(C2)}
-		The maps $g:\mathbb{R}_{+}\times U\times \mathbb{R}^n\rightarrow \mathbb{R}$ and $h.\mathbb{R}^n\rightarrow \mathbb{R}$ are measurable and there exists a continuous function $\omega:\mathbb{R}_{+}\times\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$, called a local modulus of continuity, which is increasing in each argument, and $\omega(r,0)=0$ for every $r\geq 0$, such that 
-$$|g(s,u,x_1)-g(s,u,x_2)|+|h(x_1)-h(x_2)|\leq \omega(|x_1|\vee |x_2|,|x_1-x_2|)$$
-$\mbox{for every}\, (s,u)\in \mathbb{R}_{+}\times U,x_1,x_2\in \mathbb{R}^n,$ where $|x_1|\vee |x_2|=\max\{|x_1|,|x_2|\}$.
+		$g:\mathbb{R}_{+}\times U\times \mathbb{R}^n\rightarrow \mathbb{R}$ and $h:\mathbb{R}^n\rightarrow \mathbb{R}$ are measurable, and
+		$$|g(s,u,x_1)-g(s,u,x_2)|+|h(x_1)-h(x_2)|\leq \omega(|x_1|\vee |x_2|,|x_1-x_2|)$$
+		$\mbox{for every}\, (s,u)\in \mathbb{R}_{+}\times U,x_1,x_2\in \mathbb{R}^n$.
 	\end{graybox}
 \end{textblock*}
 \end{frame}
 
 \begin{frame}
-\begin{textblock*}{120mm}(5mm,10mm)
-	For any $(t,x)\in [0,T]\times\mathbb{R}^n$, let us introduce the following set:
-	$$\mathbb{E}(t,x)=\{(z^0,z)\in \mathbb{R}\times \mathbb{R}_{+}|z^0\geq g(t,u,x),z=f(t,u,x),\, u\in U\}.$$
-	The following assumption gives some compatibility between the control system and the cost functional.
-\end{textblock*}
-
-\begin{textblock*}{120mm}(5mm,35mm)
-	\begin{graybox}{(C3)}
-		For almost all $t\in [0,T]$, the following Cesari property holds for any $x\in \mathbb{R}^n$,
-
-		$$\bigcap_{\delta>0}\bar{co}\mathbb{E}(t,B_{\delta}(x))=\mathbb{E}(t,x),$$
-
-		where, we recall that $B_{\delta}(x)$ is the open ball centered at $x$ with radius $\delta>0$, and $\bar{co}(E)$ stands for the closed convex hull of the set $E$ (the 	smallest closed convex set containing E).
-	\end{graybox}
-\end{textblock*}
+	\begin{textblock*}{120mm}(5mm,15mm)
+		For any $(t,x)\in [0,T]\times\mathbb{R}^n$,
+		
+		$$\mathbb{E}(t,x)=\{(z^0,z)\in \mathbb{R}\times \mathbb{R}_{+}|z^0\geq g(t,u,x),z=f(t,u,x),\, u\in U\}.$$
+	
+		Cesari property:
+		$$\bigcap_{\delta>0}\bar{co}\mathbb{E}(t,B_{\delta}(x))=\mathbb{E}(t,x).$$
+	\end{textblock*}
 
 
+
+	\begin{textblock*}{120mm}(5mm,50mm)
+		\begin{graybox}{(C3)}
+			For almost all $t\in[0,T]$, Cesari property holds for any $x\in \mathbb{R}^n$.
+		\end{graybox}
+	\end{textblock*}
 \end{frame}
-
-
-
-
-
 
 
 \begin{frame}
 	\begin{textblock*}{120mm}(5mm,15mm)
 		\begin{graybox}{Existence Theorem}
-			Let (C1)-(C3) hold. Let $M\subseteq \mathbb{R}^n$ be a non-empty closed set. Let $(t,x)\in [0,T]\times\mathbb{R}^n$ be given and $\tilde{\mathcal{U}}^M_x[t,T]\neq\emptyset$. Then problem $(OC)^T$ admits at least one optimal pair.
+			Let (C1)-(C3) hold. Let $M\subseteq \mathbb{R}^n$ be a non-empty closed set. Let $(t_0,x_0)\in [0,T]\times\mathbb{R}^n$ be given and $\tilde{\mathcal{U}}^M_x[t_0,T]\neq\emptyset$. Then problem $(OC)^T$ admits at least one optimal pair.
 		\end{graybox}
 	\end{textblock*}
 \end{frame}
@@ -410,8 +444,191 @@ $\mbox{for every}\, (s,u)\in \mathbb{R}_{+}\times U,x_1,x_2\in \mathbb{R}^n,$ wh
 %-------------------------------------------------------
 
 \begin{frame}
-
+	\begin{textblock*}{120mm}(5mm,15mm)
+		\begin{graybox}{Pontryagin’s Maximum Principle}
+			If $u^*(t)$ and $x^*(t)$ are optimal for the problem $(OC)^T$, then there exists a piecewise differentiable adjoint variable $\lambda(t)$ such that
+				\begin{equation*}
+					H(t,x^*(t),u(t),\lambda(t))\leq H(t,x^*(t),u^*(t),\lambda(t))
+				\end{equation*}
+			for all controls $u$ at each time $t$, where the Hamiltonian $H$ is
+			
+				\begin{equation*}
+					H=g(t,x(t),u(t))+\lambda(t)f(t,x(t),u(t)),
+				\end{equation*}
+			and 
+				\begin{align*}
+					\lambda'(t) &= -\frac{\partial H(t,x^*(t),u^*(t),\lambda(t))}{\partial x},\\
+					\lambda(T) &= 0.
+				\end{align*}
+		\end{graybox}
+		
+	\end{textblock*}
+	
 \end{frame}
 
+%-------------------------------------------------------------------------------
+\begin{frame}
+%	\section*{The Forward Backward Sweep Method}
+%	%[theorem name, {\citep[Thm. #, page]{reference}}]
+%	%---------%---------%---------%---------%---------%---------%---------%---------
+%	%---------%---------%---------%---------%---------%---------%---------%---------
+%	The Pontryagins principle allows us to transform the problem of finding a
+%	control which optimizes the cost functional to optimizing the Hamiltonian. 
+%	To \section*{The Forward Backward Sweep Method}
+%	%[theorem name, {\citep[Thm. #, page]{reference}}]
+%	%---------%---------%---------%---------%---------%---------%---------%---------
+%	%---------%---------%---------%---------%---------%---------%---------%---------
+%	The Pontryagins principle allows us to transform the problem of finding a
+%	control which optimizes the cost functional to optimizing the Hamiltonian. 
+%	To this end, we need to solve forward in time the dynamics with a given 
+%	initial condition, and backward in time the adjoint equation with a 
+%	transversality condition, using the four-stage  RK method. This way of
+%	solving is called the forward backward sweep metho. So the idea is to 
+%	follow the next steps.
+%	
+	\begin{description}
+		\item[Step 1.]
+		Make an initial guess for $\vec{u}$ over the interval.
+		\item[Step 2.]
+		Using the initial condition $x_1 = x(t_0) = a$ and the values for 
+		$\vec{u}$, solve $\vec{x}$ forward in time according to its differential
+		equation in the optimality system.
+		\item[Step 3.]
+		Using the transversality condition $\lambda_{N+1} = \lambda(t_1) = 0$ 
+		and the values for $\vec{u}$ and $\vec{x}$, solve $\vec{\lambda}$ 
+		backward in time according to its differential equation in the optimality
+		system.
+		\item[Step 4.]
+		Update $\vec{u}$ by entering the new $\vec{x}$ and $\vec{\lambda}$ values 
+		into the characterization of the optimal control. 
+		\item[Step 5.]
+		Check convergence. If the values of the variables in this iteration and 
+		the last iteration and the last iteration are negligibly close, output the 
+		current values as solutions. If values are not close, return to Step 2.
+	\end{description}
+\end{frame}	
+\begin{frame}
+%	Using Python, we made an implementation of this method \citep{python_Thesisrepo},
+%	which follows the next  \Cref{FBSM_alg}. 
+%	
+%	\begin{algorithm}
+%		\caption{Forward Backward Sweep }\label{FBSM_alg}
+%		INPUT: $t_0, t_f, n_{max}, x_0,h, a, r, m, \epsilon, \lambda_{f}$ \\
+%		OUTPUT: $x^*, u^*, \lambda$ \\
+%		\begin{algorithmic}[1]
+%			\Procedure{Forward backward sweep}{$g,\lambda_{\text{function}}, 
+%				u, x_0, 
+%				\lambda_f, h, n_{max}$} 
+%			\While{$ \text{test} > \epsilon $}
+%			\State $u_{\text{old}} \gets u$ 
+%			\State $x_{\text{old}} \gets x$ 
+%			\State $ x \gets$ \Call{runge\_kutta\_forward}%
+%			{$g, u, x_0, h,n_{max}$}
+%			\State $\lambda_{\text{old}} \gets \lambda $
+%			\State $\lambda \gets$ \Call{runge\_kutta\_backward}%
+%			{$\lambda_{\text{function}}, x, \lambda_f, h, n_{max}$}
+%			\State $\displaystyle u_1 \gets$ \Call{optimality\_condition} %
+%			{$u, x, \lambda$}
+%			\State $\displaystyle u \gets \frac{u_1 + u_{old}}{2}$
+%			\State $test_1 \gets \displaystyle 
+%			\frac{||u - u_{\text{old}}||}{||u||}$
+%			\State $test_2 \gets \displaystyle 
+%			\frac{||x - x_{\text{old}}||}{||x||}$
+%			\State $test_3 \gets \displaystyle 
+%			\frac{||\lambda - \lambda_{\text{old}}||}{||\lambda||}$
+%			\State $\text{test} \gets \max{ \{ test_1, test_2, test_3 \}}$
+%			\EndWhile\label{}
+%			\State \textbf{return} $ x^*, u^*, \lambda$
+%			\Comment{Optimal pair}
+%			\EndProcedure
+%		\end{algorithmic}
+%	\end{algorithm}this end, we need to solve forward in time the dynamics with a given 
+%	initial condition, and backward in time the adjoint equation with a 
+%	transversality condition, using the four-stage  RK method. This way of
+%	solving is called the forward backward sweep metho. So the idea is to 
+%	follow the next steps.
+%	
+%	\begin{description}
+%		\item[Step 1.]
+%		Make an initial guess for $\vec{u}$ over the interval.
+%		\item[Step 2.]
+%		Using the initial condition $x_1 = x(t_0) = a$ and the values for 
+%		$\vec{u}$, solve $\vec{x}$ forward in time according to its differential
+%		equation in the optimality system.
+%		\item[Step 3.]
+%		Using the transversality condition $\lambda_{N+1} = \lambda(t_1) = 0$ 
+%		and the values for $\vec{u}$ and $\vec{x}$, solve $\vec{\lambda}$ 
+%		backward in time according to its differential equation in the optimality
+%		system.
+%		\item[Step 4.]
+%		Update $\vec{u}$ by entering the new $\vec{x}$ and $\vec{\lambda}$ values 
+%		into the characterization of the optimal control. 
+%		\item[Step 5.]
+%		Check convergence. If the values of the variables in this iteration and 
+%		the last iteration and the last iteration are negligibly close, output the 
+%		current values as solutions. If values are not close, return to Step 2.
+%	\end{description}
+%	
+%	Using Python, we made an implementation of this method \citep{python_Thesisrepo},
+%	which follows the next  \Cref{FBSM_alg}. 
+%	
+%	\begin{algorithm}
+%		\caption{Forward Backward Sweep }\label{FBSM_alg}
+%		INPUT: $t_0, t_f, n_{max}, x_0,h, a, r, m, \epsilon, \lambda_{f}$ \\
+%		OUTPUT: $x^*, u^*, \lambda$ \\
+%		\begin{algorithmic}[1]
+%			\Procedure{Forward backward sweep}{$g,\lambda_{\text{function}}, 
+%				u, x_0, 
+%				\lambda_f, h, n_{max}$} 
+%			\While{$ \text{test} > \epsilon $}
+%			\State $u_{\text{old}} \gets u$ 
+%			\State $x_{\text{old}} \gets x$ 
+%			\State $ x \gets$ \Call{runge\_kutta\_forward}%
+%			{$g, u, x_0, h,n_{max}$}
+%			\State $\lambda_{\text{old}} \gets \lambda $
+%			\State $\lambda \gets$ \Call{runge\_kutta\_backward}%
+%			{$\lambda_{\text{function}}, x, \lambda_f, h, n_{max}$}
+%			\State $\displaystyle u_1 \gets$ \Call{optimality\_condition} %
+%			{$u, x, \lambda$}
+%			\State $\displaystyle u \gets \frac{u_1 + u_{old}}{2}$
+%			\State $test_1 \gets \displaystyle 
+%			\frac{||u - u_{\text{old}}||}{||u||}$
+%			\State $test_2 \gets \displaystyle 
+%			\frac{||x - x_{\text{old}}||}{||x||}$
+%			\State $test_3 \gets \displaystyle 
+%			\frac{||\lambda - \lambda_{\text{old}}||}{||\lambda||}$
+%			\State $\text{test} \gets \max{ \{ test_1, test_2, test_3 \}}$
+%			\EndWhile\label{}
+%			\State \textbf{return} $ x^*, u^*, \lambda$
+%			\Comment{Optimal pair}
+%			\EndProcedure
+%		\end{algorithmic}
+%	\end{algorithm}
+\end{frame}
+%-------------------------------------------------------------------------------
+\section{Simulations}
+	\begin{frame}
+		\frametitle{Case with one controls}
+		\begin{figure}
+			\centering	
+			\includegraphics[scale=0.5]{Feathergraphics/figure_1_tomato_one_control.eps}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}
+		\frametitle{Case with two controls}
+		\begin{figure}
+			\centering	
+			\includegraphics[scale=0.5]{Feathergraphics/two_control_simulation_2.eps}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}
+		\begin{figure}
+			\frametitle{Case with three controls}
+			\centering	
+			\includegraphics[scale=0.5]{Feathergraphics/three_controls_simulation_1.eps}
+		\end{figure}	
+	\end{frame}
 
 \end{document}
