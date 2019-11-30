@@ -104,6 +104,6 @@ Int_Cost_value = np.cumsum(Cost_value)
 #print(Int_Cost_value[len(t)])
 data_one_control = {'time':[t],'Cost_Value':[Cost_value],'Int_Cost_Value':[Int_Cost_value]}
 df = pd.DataFrame(data_one_control,columns=['time','Cost_Value','Int_Cost_value'])
-df.to_csv('Two_Control_Fumigation_Cost.csv')
+df.to_csv('Two_Control_Cost.csv', sep= ',')
 plt.plot(t,Int_Cost_value)
 plt.show()
