@@ -3,6 +3,7 @@
 \beamer@sectionintoc {2}{Objetive}{6}{0}{2}
 \beamer@sectionintoc {3}{Epidemical Model}{7}{0}{3}
 \beamer@subsectionintoc {3}{2}{Model without control}{20}{0}{3}
-\beamer@subsectionintoc {3}{3}{Controlled Model}{23}{0}{3}
-\beamer@sectionintoc {4}{Existence Theory}{25}{0}{4}
-\beamer@sectionintoc {5}{Simulations}{35}{0}{5}
+\beamer@subsectionintoc {3}{3}{Controlled Model}{26}{0}{3}
+\beamer@sectionintoc {4}{Existence Theory}{28}{0}{4}
+\beamer@sectionintoc {5}{Optimal Control Characterization}{34}{0}{5}
+\beamer@sectionintoc {6}{Simulations}{39}{0}{6}

@@ -39,12 +39,12 @@ i_p_zero = 0.0008
 s_v_zero = 0.84
 i_v_zero = 0.16
 # Functional Cost
-A_1 = .5
-A_2 = 0.3
-A_3 = 0.0
-c_1 = 0.1
-c_2 = 0.1
-c_3 = 0.1
+A_1 = 0.5
+A_2 = 0.2
+A_3 = 1.2
+c_1 = 1.0
+c_2 = 1.1
+c_3 = 1.2
 
 name_file_1 = 'figure_1_tomato_controls.pdf'
 #
@@ -58,7 +58,7 @@ t = fbsm.t
 x_wc = fbsm.runge_kutta_forward(fbsm.u)
 #
 [x, lambda_, u] = fbsm.forward_backward_sweep()
-
+ #'''TODO: save x,lambda_,u,x_wc'''
 
 mpl.style.use('ggplot')
 ax1 = plt.subplot2grid((3, 2), (0, 0), rowspan=3)
@@ -103,12 +103,11 @@ fig.savefig(name_file_1,
             bbox_inches="tight")
 #######################################################################################################################
 plt.figure()
-Cost_value = (A_1 * x[:, 2] + A_2 * x[:, 1]+ A_3 * x[:, 4]+ c_1 * u[:, 0] ** 2 + c_2 * u[:, 1] ** 2 + c_3 * u[:, 2] ** 2) * 70 / 1000
+Cost_value = (A_1 * x[:, 2] + A_2 * x[:, 1]+ A_3 * x[:, 4]+ c_1 * u[:, 0] ** 2 + c_2 * u[:, 1] ** 2 + c_3 * u[:, 2] ** 2) * (365 / 10000)
 
 Int_Cost_value = np.cumsum(Cost_value)
 #print(Int_Cost_value[len(t)])
-data_one_control = {'time':[t],'Cost_Value':[Cost_value],'Int_Cost_Value':[Int_Cost_value]}
-df = pd.DataFrame(data_one_control,columns=['time','Cost_Value','Int_Cost_value'])
-df.to_csv('Three_Control_Fumigation_Cost.csv',sep= ',')
+#np.save('time.npy',t)
+np.save('three_control_cost.npy',Int_Cost_value)
 plt.plot(t,Int_Cost_value)
 plt.show()

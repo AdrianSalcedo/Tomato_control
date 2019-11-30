@@ -1,12 +1,19 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+plt.rcParams["figure.figsize"] = (10, 6.180)
 
-data_one_cost = pd.read_csv("One_Control_Cost.csv")
-data_two_cost = pd.read_csv("Two_Control_Cost.csv")
-data_three_cost = pd.read_csv("Three_Control_Cost.csv")
-plt.scatter(data_one_cost.time, data_one_cost.Int_Cost_value,s=80,
-            marker='o',
-            alpha=0.7)
 
+t = np.load('time.npy')
+Cost_1 = np.load('one_control_cost.npy')
+Cost_2 = np.load('two_control_cost.npy')
+Cost_3 = np.load('three_control_cost.npy')
+plt.style.use('ggplot')
+plt.plot(t,Cost_1, label= 'Fumigation')
+plt.plot(t,Cost_2, label= 'Replanting plants')
+plt.plot(t,Cost_3, label= 'Replanting and fumigation')
+plt.xlabel('t(days)')
+plt.ylabel('Cost Function')
+plt.legend(loc=0)
+plt.savefig('Cost_Comparation.pdf')
 plt.show()

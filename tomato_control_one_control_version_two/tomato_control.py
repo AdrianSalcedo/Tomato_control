@@ -45,7 +45,7 @@ import numpy as np
 
 
 class OptimalControlProblem(object):
-    def __init__(self, t_0=0.0, t_f=70.0, dynamics_dim=5, control_dim=1,
+    def __init__(self, t_0=0.0, t_f=365.0, dynamics_dim=5, control_dim=1,
                  s_p_zero=0.9992, l_p_zero=0.0, i_p_zero=0.0008, s_v_zero=0.84, i_v_zero=0.16
                  ):
         # Parameters for the test example
