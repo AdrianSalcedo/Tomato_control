@@ -49,8 +49,8 @@ class ForwardBackwardSweep(OptimalControlProblem):
         #
         for j in np.arange(n_max - 1):
             x_j = sol[j].reshape([1, dyn_dim])
-            u_j = u[j].reshape([1, con_dim])
-            u_jp1 = u[j + 1].reshape([1, con_dim])
+            u_j = u[j]
+            u_jp1 = u[j + 1]
             u_mj = 0.5 * (u_j + u_jp1)
             
             k_1 = self.g(x_j, u_j)
@@ -129,16 +129,14 @@ class ForwardBackwardSweep(OptimalControlProblem):
         b_4 = self.b_4
         c_1 = self.c_1
         c_2 = self.c_2
-        c_3 = self.c_3
         n_max = self.n_max
         e = x_k[:, 1]
         q = x_k[:, 2]
         infected = x_k[:, 3]
         j = x_k[:, 4]
         
-        u_1 = u_k[:, 0]
+        u_1 = u_k[0]
         u_2 = u_k[:, 1]
-        u_3 = u_k[:, 2]
         h = self.h
         
         j_cost = np.zeros(n_max)
@@ -146,7 +144,7 @@ class ForwardBackwardSweep(OptimalControlProblem):
         for i in np.arange(n_max - 1):
             j_cost_i = b_1 * e[i] + b_2 * q[i] + b_3 * infected[i] \
                        + b_4 * j[i] + 0.5 * c_1 * (u_1[i]) ** 2 \
-                       + 0.5 * c_2 * (u_2[i]) ** 2 + 0.5 * c_3 * (u_3[i]) ** 2
+                       + 0.5 * c_2 * (u_2[i]) ** 2
             j_cost[i + 1] = j_cost[i] + j_cost_i * h
         
         self.j_cost = j_cost

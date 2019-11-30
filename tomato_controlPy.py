@@ -1,6 +1,5 @@
 from forward_backward_sweep import ForwardBackwardSweep
 from matplotlib import rcParams
-import pandas as pd
 
 # rcParams['font.family'] = 'sans-serif'
 # rcParams['font.sans-serif'] = ['Tahoma']
@@ -46,13 +45,14 @@ c_1 = 0.1
 c_2 = 0.1
 c_3 = 0.1
 
-name_file_1 = 'figure_1_tomato_two_controls.pdf'
-
+name_file_1 = 'figure_1_sir_log.eps'
+name_file_2 = 'figure_2_sir_log.eps'
+name_file_3 = 'figure_3_sir_log.eps'
 #
 
 fbsm = ForwardBackwardSweep()
 fbsm.set_parameters(beta, a, b, psi, gamma, theta, mu,
-                       A_1, A_2, A_3, c_1, c_2,
+                       A_1, A_2, A_3, c_1, c_2, c_3,
                        s_p_zero, l_p_zero, i_p_zero, s_v_zero, i_v_zero)
 
 t = fbsm.t
@@ -60,9 +60,8 @@ x_wc = fbsm.runge_kutta_forward(fbsm.u)
 #
 [x, lambda_, u] = fbsm.forward_backward_sweep()
 
+
 mpl.style.use('ggplot')
-# plt.ion()
-# n_whole = fbsm.n_whole
 ax1 = plt.subplot2grid((3, 2), (0, 0), rowspan=3)
 ax1.plot(t, x_wc[:, 2],
          label="Without control",
@@ -77,18 +76,25 @@ ax1.legend(loc=0)
 
 ax2 = plt.subplot2grid((3, 2), (0, 1))
 ax2.plot(t, u[:, 0],
-         label="$u_1(t)$ : Remove latent plants",
+         label="$u_1(t)$ : Remove latent plant",
          color='orange')
 ax2.set_ylabel(r'$u_1(t)$')
-ax2.set_xlabel(r'Time(days)')
+
+ax3 = plt.subplot2grid((3, 2), (1, 1))
+ax3.plot(t, u[:, 1],
+         label="$u_2(t)$ : Remove infected plant",
+         color='darkgreen')
+ax3.set_ylabel(r'$u_2(t)$')
 
 ax4 = plt.subplot2grid((3, 2), (2, 1))
-ax4.plot(t, u[:, 1],
-         label="$u_2(t)$ : Remove infectious plants",
-         color='darkgreen')
-ax4.set_ylabel(r'$u_2(t)$')
+ax4.plot(t, u[:, 2],
+         label="$u_3(t)$ : insecticide",
+         color='darkred')
+ax4.set_ylabel(r'$u_3(t)$')
 ax4.set_xlabel(r'Time(days)')
-
+#ax2.set_ylabel(r'Controls')
+#ax2.legend(loc=0)
+#
 plt.tight_layout()
 #
 fig = mpl.pyplot.gcf()
@@ -96,14 +102,3 @@ fig.set_size_inches(5.5, 5.5 / 1.618)
 fig.savefig(name_file_1,
             # additional_artists=art,
             bbox_inches="tight")
-#######################################################################################################################
-plt.figure()
-Cost_value = (A_1 * x[:, 2] + A_2 * x[:, 1]+ A_3 * x[:, 4]+ c_1 * u[:, 0] ** 2 + c_2 * u[:, 1] ** 2) * 70 / 1000
-
-Int_Cost_value = np.cumsum(Cost_value)
-#print(Int_Cost_value[len(t)])
-data_one_control = {'time':[t],'Cost_Value':[Cost_value],'Int_Cost_Value':[Int_Cost_value]}
-df = pd.DataFrame(data_one_control,columns=['time','Cost_Value','Int_Cost_value'])
-df.to_csv('Two_Control_Fumigation_Cost.csv')
-plt.plot(t,Int_Cost_value)
-plt.show()

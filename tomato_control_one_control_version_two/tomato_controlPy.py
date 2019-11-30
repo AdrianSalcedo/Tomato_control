@@ -1,5 +1,6 @@
 from forward_backward_sweep import ForwardBackwardSweep
 from matplotlib import rcParams
+import pandas as pd
 
 # rcParams['font.family'] = 'sans-serif'
 # rcParams['font.sans-serif'] = ['Tahoma']
@@ -44,11 +45,10 @@ A_3 = 0.0
 
 c_3 = 0.1
 
-<<<<<<< HEAD
 name_file_1 = 'figure_1_tomato_one_control.eps'
-=======
+
 name_file_1 = 'figure_1_tomato_one_control.pdf'
->>>>>>> 8b296fbe19fe88c04da51ab9643ccb674d6ea233
+
 
 #
 
@@ -77,19 +77,16 @@ ax1.set_ylabel(r'Infected plants ratio $I_p$')
 ax1.set_xlabel(r'Time (days)')
 ax1.legend(loc=0)
 
-<<<<<<< HEAD
 ax2 = plt.subplot2grid((3, 2), (0, 1), rowspan=3)
 ax2.plot(t, u[:, 0],
          label="$u_3(t)$ ",
          color='orange')
 ax2.set_ylabel(r'$u_3(t): Fumigation$')
-=======
 ax2 = plt.subplot2grid((3, 2), (1, 1))
 ax2.plot(t, u[:, 0],
          label="$u_3(t)$ : Fumigation",
          color='orange')
 ax2.set_ylabel(r'$u_3(t)$')
->>>>>>> 8b296fbe19fe88c04da51ab9643ccb674d6ea233
 ax2.set_xlabel(r'Time(days)')
 
 plt.tight_layout()
@@ -99,3 +96,14 @@ fig.set_size_inches(5.5, 5.5 / 1.618)
 fig.savefig(name_file_1,
             # additional_artists=art,
             bbox_inches="tight")
+########################################################################################################################
+plt.figure()
+Cost_value = (A_1 * x[:, 2] + A_2 * x[:, 1]+ A_3 * x[:, 4]+ c_3 * u[:, 0] ** 2) * 70 / 1000
+
+Int_Cost_value = np.cumsum(Cost_value)
+#print(Int_Cost_value[len(t)])
+data_one_control = {'time':[t],'Cost_Value':[Cost_value],'Int_Cost_Value':[Int_Cost_value]}
+df = pd.DataFrame(data_one_control,columns=['time','Cost_Value','Int_Cost_value'])
+df.to_csv('One_Control_Fumigation_Cost.csv')
+plt.plot(t,Int_Cost_value)
+plt.show()

@@ -1,8 +1,8 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Objetive}{5}{0}{2}
-\beamer@sectionintoc {3}{Epidemical Model}{6}{0}{3}
-\beamer@subsectionintoc {3}{2}{Model without control}{18}{0}{3}
-\beamer@subsectionintoc {3}{3}{Controlled Model}{20}{0}{3}
-\beamer@sectionintoc {4}{Existence Theory}{22}{0}{4}
-\beamer@sectionintoc {5}{Simulations}{30}{0}{5}
+\beamer@sectionintoc {2}{Objetive}{6}{0}{2}
+\beamer@sectionintoc {3}{Epidemical Model}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Model without control}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{Controlled Model}{23}{0}{3}
+\beamer@sectionintoc {4}{Existence Theory}{25}{0}{4}
+\beamer@sectionintoc {5}{Simulations}{35}{0}{5}
