@@ -15,7 +15,7 @@
 	\end{textblock*}
 	\begin{textblock*}{100mm}(15mm,65mm)
 		\begin{yellowbox}{}
-			$$J(t_0,x_0;u(\cdot))=\int_{t_0}^{T}g(s,u(s),x(s))ds+h(T,x(T)).$$
+			$$J(t_0,x_0;u(\cdot))=\int_{t_0}^{T}g(s,u(s),x(s))ds+h(x(T)).$$
 		\end{yellowbox}
 	\end{textblock*}
 \end{frame}
@@ -74,15 +74,17 @@
 	\only<2>
 	{
 		\begin{textblock*}{50mm}(75mm,5mm)
-			\begin{yellowbox}{}
-				$\omega:\mathbb{R}_{+}\times\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$, increasing, $\omega(r,0)=0$ $\forall r\geq 0$.
+			\begin{yellowbox}{Modulus of continuity}
+				$\omega:\mathbb{R}_{+}\times\mathbb{R}_{+}\rightarrow \mathbb{R}_{+}$, increasing, $\omega(r,0)=0$ 
+				${\forall r\geq 0}$.
 			\end{yellowbox}
 		\end{textblock*}
 	}
 	\only<3>
 	{
-		\begin{textblock*}{50mm}(75mm,30mm)
+		\begin{textblock*}{50mm}(75mm,20mm)
 			\begin{yellowbox}{}
+				$\bar{co}(E)$: closed convex hull of E,
 				\begin{align*}
 					&\mathbb{E}(t,x)=\{(z^0,z)\in \mathbb{R}\times \mathbb{R}^n|\\
 					&z^0\geq g(t,u,x),\\

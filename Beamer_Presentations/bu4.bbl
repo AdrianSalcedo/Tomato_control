@@ -1,11 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Hilker2017}
-F.~M. Hilker, L.~J.~S. Allen, V.~A. Bokil, C.~J. Briggs, Z.~Feng, K.~A.
-  Garrett, L.~J. Gross, F.~M. Hamelin, M.~J. Jeger, C.~A. Manore, A.~G. Power,
-  M.~G. Redinbaugh, M.~A. R{\'{u}}a, and N.~J. Cunniffe.
-\newblock {Modeling Virus Coinfection to Inform Management of Maize Lethal
-  Necrosis in Kenya}.
-\newblock {\em Phytopathology}, 107(10):PHYTO--03--17--008, aug 2017.
+\bibitem{Bokil2019optimal}
+V.~Bokil, L.~Allen, M.~Jeger, and S.~Lenhart.
+\newblock Optimal control of a vectored plant disease model for a crop with
+  continuous replanting.
+\newblock {\em Journal of biological dynamics}, pages 1--29, 2019.
 
 \end{thebibliography}

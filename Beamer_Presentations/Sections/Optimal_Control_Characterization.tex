@@ -1,24 +1,30 @@
 \begin{frame}
-	\begin{textblock*}{70mm}(30mm,30mm)
-		\begin{greenbox}{}
+\begin{textblock*}{120mm}(5mm,20mm)
+	\begin{yellowbox}{}
+		$$\left\{ \begin{array}{l}
+		\dot{x}(s)=f(s,u(s),x(s))\,\,s\in [t_0,T], \\
+		x(t_0)=x_0,\\
+		\end{array}
+		\right.$$			
+		$$J(t_0,x_0;u(\cdot))=\int_{t_0}^{T}g(s,u(s),x(s))ds+h(x(T)).$$
+	\end{yellowbox}
+\end{textblock*}
+
+	\begin{textblock*}{68mm}(5mm,50mm)
+		\begin{greenbox}{Hamiltonian:}
 			\begin{equation*}
 			H=g(t,x(t),u(t))+\lambda(t)f(t,x(t),u(t)),
 			\end{equation*}
 		\end{greenbox}
 	\end{textblock*}
-	\only<2>
-	{
-		\begin{textblock*}{120mm}(5mm,50mm)
-			\begin{yellowbox}{}
-				$$\left\{ \begin{array}{l}
-				\dot{x}(s)=f(s,u(s),x(s))\,\,s\in [t_0,T], \\
-				x(t_0)=x_0,\\
-				\end{array}
-				\right.$$			
-				$$J(t_0,x_0;u(\cdot))=\int_{t_0}^{T}g(s,u(s),x(s))ds+h(x(T)).$$
-			\end{yellowbox}
-		\end{textblock*}
-	}
+
+	\begin{textblock*}{50mm}(75mm,50mm)
+		\begin{yellowbox}{Optimallity Constraints:}
+			\begin{equation*}
+			\frac{\partial H}{\partial u_i}=0.
+			\end{equation*}
+		\end{yellowbox}
+	\end{textblock*}
 	
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
