@@ -81,12 +81,12 @@ ax2 = plt.subplot2grid((3, 2), (0, 1), rowspan=3)
 ax2.plot(t, u[:, 0],
          label="$u_2(t)$ ",
          color='orange')
-ax2.set_ylabel(r'$u_2(t): Replanting$')
+ax2.set_ylabel(r'$u_2(t): Replanting imfected$')
 ax2 = plt.subplot2grid((3, 2), (1, 1))
 ax2.plot(t, u[:, 0],
          label="$u_2(t)$ : Replanting infected",
          color='orange')
-ax2.set_ylabel(r'$u_3(t)$')
+ax2.set_ylabel(r'$u_2(t)$')
 ax2.set_xlabel(r'Time(days)')
 
 plt.tight_layout()

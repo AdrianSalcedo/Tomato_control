@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.27)  1 DEC 2019 20:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.27)  2 DEC 2019 20:28
 entering extended mode
 **./Beamer_Presentation.tex
 (Beamer_Presentation.tex
@@ -892,10 +892,6 @@ themesplit.sty"))
 themeorchid.sty")
 ("C:\Users\adria\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamercolor
 themewhale.sty"))
-("C:\Users\adria\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.st
-y"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-)
 ("C:\Users\adria\AppData\Local\Programs\MiKTeX 2.9\tex/latex/textpos\textpos.st
 y"
 Package: textpos 2019/04/15 v1.9.1
@@ -1583,7 +1579,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Tomato_plant-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Feathergraphics/Tomato_plant-eps-converted-to.pdf, id=144, 986.68625pt x 740.7
+<Feathergraphics/Tomato_plant-eps-converted-to.pdf, id=143, 986.68625pt x 740.7
 675pt>
 File: Feathergraphics/Tomato_plant-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1607,7 +1603,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/TYLCV_3_bush-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Feathergraphics/TYLCV_3_bush-eps-converted-to.pdf, id=145, 479.7925pt x 768.87
+<Feathergraphics/TYLCV_3_bush-eps-converted-to.pdf, id=144, 479.7925pt x 768.87
 25pt>
 File: Feathergraphics/TYLCV_3_bush-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1673,7 +1669,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Mosca_Blanca-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Feathergraphics/Mosca_Blanca-eps-converted-to.pdf, id=166, 570.13pt x 386.4437
+<Feathergraphics/Mosca_Blanca-eps-converted-to.pdf, id=165, 570.13pt x 386.4437
 6pt>
 File: Feathergraphics/Mosca_Blanca-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1706,7 +1702,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Malvastrum_coromancalianum
 _L-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-<Feathergraphics/Malvastrum_coromancalianum_L-eps-converted-to.pdf, id=183, 189
+<Feathergraphics/Malvastrum_coromancalianum_L-eps-converted-to.pdf, id=182, 189
 .70876pt x 285.065pt>
 File: Feathergraphics/Malvastrum_coromancalianum_L-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1732,7 +1728,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Euphorbia_geniculata_Ort-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<Feathergraphics/Euphorbia_geniculata_Ort-eps-converted-to.pdf, id=184, 996.723
+<Feathergraphics/Euphorbia_geniculata_Ort-eps-converted-to.pdf, id=183, 996.723
 75pt x 747.79375pt>
 File: Feathergraphics/Euphorbia_geniculata_Ort-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2262,26 +2258,26 @@ Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 [29
 
  <./Feathergraphics/Tomato_simulation_2-eps-converted-to.pdf>]
-Overfull \hbox (11.73337pt too wide) detected at line 191
+Overfull \hbox (11.73337pt too wide) detected at line 193
 []
  []
 
 [30
 
 ]
-Overfull \hbox (11.73337pt too wide) detected at line 191
+Overfull \hbox (11.73337pt too wide) detected at line 193
 []
  []
 
 [31
 
 ]
-Overfull \hbox (11.73337pt too wide) detected at line 191
+Overfull \hbox (11.73337pt too wide) detected at line 193
 []
  []
 
 
-Overfull \hbox (0.70381pt too wide) detected at line 191
+Overfull \hbox (0.70381pt too wide) detected at line 193
 []
  []
 
@@ -2313,16 +2309,16 @@ s/m/n/10 0$
 [37
 
 ]
-Overfull \hbox (9.28546pt too wide) detected at line 104
+Overfull \hbox (9.03387pt too wide) detected at line 104
 []
  []
 
 
-Overfull \hbox (1.58498pt too wide) detected at line 104
-[] []\U/msb/m/n/10 E\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/
-10 ; \OT1/mathkerncmss/m/sl/10 B[]\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 x
-\OT1/cmss/m/n/10 )) = \U/msb/m/n/10 E\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/1
-0 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 )
+Overfull \hbox (1.0818pt too wide) detected at line 104
+[] []\T1/cmss/bx/n/10 E\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/
+it/10 ; \OT1/mathkerncmss/m/sl/10 B[]\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/1
+0 x\OT1/cmss/m/n/10 )) = \T1/cmss/bx/n/10 E\OT1/cmss/m/n/10 (\OT1/mathkerncmss/
+m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 )
  []
 
 [38
@@ -2330,46 +2326,88 @@ Overfull \hbox (1.58498pt too wide) detected at line 104
 ] [39
 
 ]) (Sections/Optimal_Control_Characterization.tex
-Overfull \hbox (11.52434pt too wide) detected at line 29
+Overfull \hbox (3.82962pt too wide) detected at line 30
 \OT1/mathkerncmss/m/sl/10 H \OT1/cmss/m/n/10 = \OT1/mathkerncmss/m/sl/10 g\OT1/
 cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/
 sl/10 x\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 )\OML/cmm/
 m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/1
-0 t\OT1/cmss/m/n/10 )) + \OML/cmm/m/it/10 \OT1/cmss/m/n/10 (\OT1/mathkerncmss/
-m/sl/10 t\OT1/cmss/m/n/10 )\OT1/mathkerncmss/m/sl/10 f\OT1/cmss/m/n/10 (\OT1/ma
-thkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n
-/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathk
-erncmss/m/sl/10 u\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 
-))\OML/cmm/m/it/10 ;
+0 t\OT1/cmss/m/n/10 )) + \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 \OT1/cmss/m/n/10 (
+\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncm
+ss/m/sl/10 f\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT
+1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/
+m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OT1/cmss/m/n/10 (\OT1/ma
+thkerncmss/m/sl/10 t\OT1/cmss/m/n/10 ))\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ;
  []
-
-
-Overfull \vbox (1.83282pt too high) has occurred while \output is active []
-
 
 [40
 
 ]
-Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
+LaTeX Warning: The counter will not be printed.
+             The label is: (\textbf {{C}}-4) on input line 48.
+
+
+Overfull \hbox (11.20331pt too wide) detected at line 48
+\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 u\OML/cmm/m/it/10 ; \OT1/mathkerncm
+ss/m/sl/10 x\OT1/cmss/m/n/10 ) \OMS/cmsy/m/n/10 7! \OT1/cmss/m/n/10 (\OT1/mathk
+erncmss/m/sl/10 f\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 
+; \OT1/mathkerncmss/m/sl/10 u\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1
+/cmss/m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 f[]\OT1/cmss/m/n/10 
+(\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OML/
+cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 )\OML/cmm/m/it/10 ; \
+OT1/mathkerncmss/m/sl/10 g\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm
+/m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl
+/10 x\OT1/cmss/m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 g[]\OT1/cms
+s/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/
+10 u\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 )\OML/cmm/m/
+it/10 ; \OT1/mathkerncmss/m/sl/10 h[]\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/1
+0 x\OT1/cmss/m/n/10 ))
+ []
 
 [41
 
 ]
-Overfull \vbox (1.83282pt too high) has occurred while \output is active []
-
+Overfull \hbox (3.82962pt too wide) detected at line 73
+\OT1/mathkerncmss/m/sl/10 H \OT1/cmss/m/n/10 = \OT1/mathkerncmss/m/sl/10 g\OT1/
+cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/
+sl/10 x\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 )\OML/cmm/
+m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/1
+0 t\OT1/cmss/m/n/10 )) + \OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 \OT1/cmss/m/n/10 (
+\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncm
+ss/m/sl/10 f\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OML/cmm/m/it/10 ; \OT
+1/mathkerncmss/m/sl/10 x\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 t\OT1/cmss/
+m/n/10 )\OML/cmm/m/it/10 ; \OT1/mathkerncmss/m/sl/10 u\OT1/cmss/m/n/10 (\OT1/ma
+thkerncmss/m/sl/10 t\OT1/cmss/m/n/10 ))\OMS/cmsy/m/n/10 i\OML/cmm/m/it/10 ;
+ []
 
 [42
 
 ]
-Overfull \hbox (8.36905pt too wide) detected at line 90
+Overfull \hbox (11.73337pt too wide) detected at line 113
+[]
+ []
+
+
+Overfull \hbox (2.54207pt too wide) detected at line 113
 []
  []
 
 [43
 
+]
+Overfull \hbox (8.36905pt too wide) detected at line 147
+[]
+ []
+
+
+Overfull \hbox (8.6901pt too wide) detected at line 147
+[]
+ []
+
+[44
+
 ]) (Sections/Simulations.tex
-<Feathergraphics/fbs_algorithm.pdf, id=789, 426.82661pt x 274.48146pt>
+<Feathergraphics/fbs_algorithm.pdf, id=767, 426.82661pt x 274.48146pt>
 File: Feathergraphics/fbs_algorithm.pdf Graphic file (type pdf)
 <use Feathergraphics/fbs_algorithm.pdf>
 Package pdftex.def Info: Feathergraphics/fbs_algorithm.pdf  used on input line 
@@ -2383,9 +2421,42 @@ Overfull \vbox (4.47803pt too high) detected at line 3
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[44
+[45
 
  <./Feathergraphics/fbs_algorithm.pdf>]
+Package epstopdf Info: Source file: <Feathergraphics/only_infected_replanting.e
+ps>
+(epstopdf)                    date: 2019-12-02 11:36:26
+(epstopdf)                    size: 206853 bytes
+(epstopdf)             Output file: <Feathergraphics/only_infected_replanting-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2019-12-02 11:37:37
+(epstopdf)                    size: 14692 bytes
+(epstopdf)             Command: <epstopdf --outfile=Feathergraphics/only_infect
+ed_replanting-eps-converted-to.pdf Feathergraphics/only_infected_replanting.eps
+>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Feathergraphics/only_infected_replanting-e
+ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
+on <1.5> allowed
+<Feathergraphics/only_infected_replanting-eps-converted-to.pdf, id=788, 397.485
+pt x 245.91875pt>
+File: Feathergraphics/only_infected_replanting-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use Feathergraphics/only_infected_replanting-eps-converted-to.pdf>
+Package pdftex.def Info: Feathergraphics/only_infected_replanting-eps-converted
+-to.pdf  used on input line 12.
+(pdftex.def)             Requested size: 198.742pt x 122.95906pt.
+
+Overfull \vbox (1.83282pt too high) has occurred while \output is active []
+
+
+[46
+
+ <./Feathergraphics/only_infected_replanting-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Feathergraphics/one_control_simulation_1.e
 ps>
 (epstopdf)                    date: 2019-11-30 13:47:45
@@ -2397,26 +2468,26 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Feathergraphics/one_control
 _simulation_1-eps-converted-to.pdf Feathergraphics/one_control_simulation_1.eps
 >
-(epstopdf)             \includegraphics on input line 12.
+(epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/one_control_simulation_1-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<Feathergraphics/one_control_simulation_1-eps-converted-to.pdf, id=810, 398.488
+<Feathergraphics/one_control_simulation_1-eps-converted-to.pdf, id=829, 398.488
 75pt x 245.91875pt>
 File: Feathergraphics/one_control_simulation_1-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Feathergraphics/one_control_simulation_1-eps-converted-to.pdf>
 Package pdftex.def Info: Feathergraphics/one_control_simulation_1-eps-converted
--to.pdf  used on input line 12.
+-to.pdf  used on input line 20.
 (pdftex.def)             Requested size: 199.24388pt x 122.95906pt.
 
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[45
+[47
 
  <./Feathergraphics/one_control_simulation_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Feathergraphics/two_control_simulation_1.e
@@ -2430,26 +2501,26 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Feathergraphics/two_control
 _simulation_1-eps-converted-to.pdf Feathergraphics/two_control_simulation_1.eps
 >
-(epstopdf)             \includegraphics on input line 20.
+(epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/two_control_simulation_1-e
 ps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<Feathergraphics/two_control_simulation_1-eps-converted-to.pdf, id=828, 398.488
+<Feathergraphics/two_control_simulation_1-eps-converted-to.pdf, id=847, 398.488
 75pt x 245.91875pt>
 File: Feathergraphics/two_control_simulation_1-eps-converted-to.pdf Graphic fil
 e (type pdf)
 <use Feathergraphics/two_control_simulation_1-eps-converted-to.pdf>
 Package pdftex.def Info: Feathergraphics/two_control_simulation_1-eps-converted
--to.pdf  used on input line 20.
+-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 199.24388pt x 122.95906pt.
 
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[46
+[48
 
  <./Feathergraphics/two_control_simulation_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Feathergraphics/three_controls_simulation_
@@ -2463,99 +2534,75 @@ Package epstopdf Info: Source file: <Feathergraphics/three_controls_simulation_
 (epstopdf)             Command: <epstopdf --outfile=Feathergraphics/three_contr
 ols_simulation_1-eps-converted-to.pdf Feathergraphics/three_controls_simulation
 _1.eps>
-(epstopdf)             \includegraphics on input line 28.
+(epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./Feathergraphics/three_controls_simulation_
 1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf, id=846, 397.
+<Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf, id=865, 397.
 485pt x 245.91875pt>
 File: Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf>
 Package pdftex.def Info: Feathergraphics/three_controls_simulation_1-eps-conver
-ted-to.pdf  used on input line 28.
+ted-to.pdf  used on input line 38.
 (pdftex.def)             Requested size: 198.742pt x 122.95906pt.
-
-Overfull \vbox (1.83282pt too high) has occurred while \output is active []
-
-
-[47
-
- <./Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Feathergraphics/three_controls_simulation_
-1.eps>
-(epstopdf)                    date: 2019-11-30 14:03:50
-(epstopdf)                    size: 213555 bytes
-(epstopdf)             Output file: <Feathergraphics/three_controls_simulation_
-1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-11-30 14:03:59
-(epstopdf)                    size: 15482 bytes
-(epstopdf)             Command: <epstopdf --outfile=Feathergraphics/three_contr
-ols_simulation_1-eps-converted-to.pdf Feathergraphics/three_controls_simulation
-_1.eps>
-(epstopdf)             \includegraphics on input line 36.
-Package epstopdf Info: Output file is already uptodate.
-File: Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf Graphic 
-file (type pdf)
-<use Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf>
-Package pdftex.def Info: Feathergraphics/three_controls_simulation_1-eps-conver
-ted-to.pdf  used on input line 36.
-(pdftex.def)             Requested size: 198.742pt x 122.95906pt.
-
-Overfull \vbox (1.83282pt too high) has occurred while \output is active []
-
-
-[48
-
-]
-Package epstopdf Info: Source file: <Feathergraphics/Cost_Comparation.eps>
-(epstopdf)                    date: 2019-11-30 15:38:07
-(epstopdf)                    size: 25776 bytes
-(epstopdf)             Output file: <Feathergraphics/Cost_Comparation-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2019-11-30 15:39:21
-(epstopdf)                    size: 13789 bytes
-(epstopdf)             Command: <epstopdf --outfile=Feathergraphics/Cost_Compar
-ation-eps-converted-to.pdf Feathergraphics/Cost_Comparation.eps>
-(epstopdf)             \includegraphics on input line 44.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Cost_Comparation-eps-conve
-rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
- allowed
-<Feathergraphics/Cost_Comparation-eps-converted-to.pdf, id=901, 722.7pt x 446.6
-2859pt>
-File: Feathergraphics/Cost_Comparation-eps-converted-to.pdf Graphic file (type 
-pdf)
-<use Feathergraphics/Cost_Comparation-eps-converted-to.pdf>
-Package pdftex.def Info: Feathergraphics/Cost_Comparation-eps-converted-to.pdf 
- used on input line 44.
-(pdftex.def)             Requested size: 307.28987pt x 189.90663pt.
-
-Overfull \vbox (4.77072pt too high) detected at line 44
- []
-
 
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
 [49
 
- <./Feathergraphics/Cost_Comparation-eps-converted-to.pdf>])
-(Sections/perspective.tex [50
+ <./Feathergraphics/three_controls_simulation_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Feathergraphics/Cost_Comparation_version_2
+.eps>
+(epstopdf)                    date: 2019-12-02 11:29:06
+(epstopdf)                    size: 194774 bytes
+(epstopdf)             Output file: <Feathergraphics/Cost_Comparation_version_2
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-12-02 11:29:46
+(epstopdf)                    size: 78063 bytes
+(epstopdf)             Command: <epstopdf --outfile=Feathergraphics/Cost_Compar
+ation_version_2-eps-converted-to.pdf Feathergraphics/Cost_Comparation_version_2
+.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Feathergraphics/Cost_Comparation_version_2
+-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<Feathergraphics/Cost_Comparation_version_2-eps-converted-to.pdf, id=895, 723.7
+0375pt x 447.6725pt>
+File: Feathergraphics/Cost_Comparation_version_2-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use Feathergraphics/Cost_Comparation_version_2-eps-converted-to.pdf>
+Package pdftex.def Info: Feathergraphics/Cost_Comparation_version_2-eps-convert
+ed-to.pdf  used on input line 54.
+(pdftex.def)             Requested size: 307.28987pt x 190.0841pt.
+
+Overfull \vbox (4.9482pt too high) detected at line 54
+ []
+
+
+Overfull \vbox (1.83282pt too high) has occurred while \output is active []
+
+
+[50
+
+ <./Feathergraphics/Cost_Comparation_version_2-eps-converted-to.pdf>])
+(Sections/perspective.tex [51
 
 ]
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[51
+[52
 
 ]
-Overfull \hbox (7.79008pt too wide) detected at line 65
+Overfull \hbox (7.79008pt too wide) detected at line 67
 \OT1/mathkerncmss/m/sl/10 J\OT1/cmss/m/n/10 (\OT1/mathkerncmss/m/sl/10 u\OT1/cm
 ss/m/n/10 (\OMS/cmsy/m/n/10 \OT1/cmss/m/n/10 )) = \U/msb/m/n/10 E []
  []
@@ -2564,7 +2611,15 @@ ss/m/n/10 (\OMS/cmsy/m/n/10 \OT1/cmss/m/n/10 )) = \U/msb/m/n/10 E []
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[52
+[53
+
+] [54
+
+]
+Overfull \vbox (1.83282pt too high) has occurred while \output is active []
+
+
+[55
 
 ]) (Sections/Bibliography.tex (bu4.aux)
 \openout7 = `bu4.aux'.
@@ -2585,7 +2640,7 @@ No file bu.aux.
 Overfull \vbox (1.83282pt too high) has occurred while \output is active []
 
 
-[53
+[56
 
 ])
 \tf@nav=\write9
@@ -2606,21 +2661,21 @@ Package rerunfilecheck Info: File `Beamer_Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: ABFA662AB28B05A7145B3BE17D6F1ECB;486.
  ) 
 Here is how much of TeX's memory you used:
- 39954 strings out of 492450
- 970937 string characters out of 3129748
- 1325049 words of memory out of 3000000
- 43242 multiletter control sequences out of 15000+200000
- 19033 words of font info for 46 fonts, out of 3000000 for 9000
+ 39888 strings out of 492450
+ 970145 string characters out of 3129748
+ 1316397 words of memory out of 3000000
+ 43171 multiletter control sequences out of 15000+200000
+ 20563 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,19n,98p,798b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecss0800.pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecsi1000.pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecss0700.pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\adria\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\adria\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\adria\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Us
+/jknappen/ec/dpi600\ecsx1000.pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\adria\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0700.pk> <C:\Users\adria\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\adria\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Us
 ers\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.
 pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecrm1000.pk> <C:\Users\adria\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
@@ -2640,9 +2695,9 @@ gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/rsfs/rsfs7.pfb>
-Output written on Beamer_Presentation.pdf (53 pages, 4581796 bytes).
+Output written on Beamer_Presentation.pdf (56 pages, 4634869 bytes).
 PDF statistics:
- 1403 PDF objects out of 1440 (max. 8388607)
- 122 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1396 PDF objects out of 1440 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
