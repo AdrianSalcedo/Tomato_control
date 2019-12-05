@@ -5,30 +5,30 @@ The style file: abbrv.bst
 Database file #1: tomato_control.bib
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            504 strings with 3860 characters,
-and the built_in function-call counts, 247 in all, are:
-= -- 23
+            505 strings with 3866 characters,
+and the built_in function-call counts, 255 in all, are:
+= -- 25
 > -- 7
 < -- 0
 + -- 3
 - -- 2
-* -- 11
-:= -- 50
+* -- 13
+:= -- 51
 add.period$ -- 4
 call.type$ -- 1
-change.case$ -- 3
+change.case$ -- 4
 chr.to.int$ -- 0
 cite$ -- 1
 duplicate$ -- 12
 empty$ -- 23
 format.name$ -- 2
-if$ -- 51
+if$ -- 53
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 2
 newline$ -- 8
 num.names$ -- 2
-pop$ -- 6
+pop$ -- 5
 preamble$ -- 1
 purify$ -- 3
 quote$ -- 0
@@ -43,4 +43,4 @@ type$ -- 2
 warning$ -- 0
 while$ -- 2
 width$ -- 2
-write$ -- 13
+write$ -- 14

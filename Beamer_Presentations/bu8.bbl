@@ -1,9 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{Bokil2019optimal}
-V.~Bokil, L.~Allen, M.~Jeger, and S.~Lenhart.
-\newblock Optimal control of a vectored plant disease model for a crop with
-  continuous replanting.
-\newblock {\em Journal of biological dynamics}, pages 1--29, 2019.
+\bibitem{Grandits2019}
+P.~Grandits, R.~M. Kovacevic, and V.~M. Veliov.
+\newblock {Optimal control and the value of information for a stochastic
+  epidemiological SIS-model}.
+\newblock {\em Journal of Mathematical Analysis and Applications},
+  476(2):665--695, aug 2019.
 
 \end{thebibliography}

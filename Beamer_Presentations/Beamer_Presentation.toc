@@ -5,6 +5,6 @@
 \beamer@subsectionintoc {3}{2}{Model without control}{23}{0}{3}
 \beamer@subsectionintoc {3}{3}{Controlled Model}{29}{0}{3}
 \beamer@sectionintoc {4}{Existence Control Theory}{34}{0}{4}
-\beamer@sectionintoc {5}{Optimal Control Characterization}{42}{0}{5}
-\beamer@sectionintoc {6}{Simulations}{50}{0}{6}
-\beamer@sectionintoc {7}{Perspective}{56}{0}{7}
+\beamer@sectionintoc {5}{Optimal Control Characterization}{41}{0}{5}
+\beamer@sectionintoc {6}{Simulations}{49}{0}{6}
+\beamer@sectionintoc {7}{Perspective}{55}{0}{7}

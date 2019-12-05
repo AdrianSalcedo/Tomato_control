@@ -1,5 +1,5 @@
 \begin{frame}[plain]
-	\frametitle{Stochastic control theory}
+	\frametitle{Stochastic optimal control theory}
 	\begin{textblock*}{100mm}(15mm,10mm)
 		\begin{graybox}{}
 			$(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$,\\ $W(t):m\text{-dimensional Brownian motion}$.
@@ -26,9 +26,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
 	\begin{textblock*}{90mm}(20mm,15mm)
-		\begin{graybox}{Definition (weak formulation)}
+		\begin{graybox}{Weak formulation of optimal control}
 			 A 6-tuple $\pi=(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P},W(\cdot),u(\cdot))$, $u(\cdot)$ is  a w-admissible control, $(u(\cdot),x(\cdot))$ is a w-admissible pair, if
-			\begin{itemize}
+			\begin{itemize}[<+->]
 				\item $(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$ is a filtered probability space satisfying the usual conditions,
 				\item $W(t)$ is an $m$-dimensional standard Brownian motion defined on $(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$,
 				\item $u(\cdot)$ is an $\{\mathscr{F}_t\}_{t\geq 0}\text{-adapted}$ process on $(\Omega,\mathscr{F},\mathbb{P})$ taking values in $U$,
@@ -73,9 +73,9 @@
 	\begin{textblock*}{110mm}(10mm,10mm)
 		\begin{graybox}{Hypothesis:}
 			\begin{enumerate}[(\textbf{{SE}}-1)]
-				\item
+				\item<1->
 					$(U,d)$ is a compact metric space and $T>0$,
-				\item
+				\item<2->
 					$f,\sigma,g$, and $h$ are all continous, and $\exists L>0$ s.t. $\psi(t,u,x)=\{f(t,u,x),\sigma(t,u,x),g(t,u,x),h(x)\}$, 
 					
 					\begin{align*}
@@ -83,14 +83,14 @@
 						&\forall t\in [0,T], x,\hat{x}\in \mathbb{R}^n,u\in U,\\
 						|\psi(t,u,0)|&\leq L \forall (t,u)\in[0,T]\times U.
 					\end{align*}  
-				\item
+				\item<3->
 					$\forall (t,x)\in [0,T]\times \mathbb{R}^n$, the set
 					\begin{align*}
 						(f,\sigma\sigma^T,g)(t,x,U)&:=\{(f_i(t,u,x),(\sigma\sigma^T)^{ij}(t,u,x),g(t,u,x))|\\
 						&u\in U,i=1,\ldots,n,j=1,\ldots,m\}
 					\end{align*}
 					is convex in $\mathbb{R}^{m+nm+1}$,
-				\item 
+				\item<4->
 					$S(t)\equiv\mathbb{R}^n$.
 			\end{enumerate}	
 		\end{graybox}
@@ -108,7 +108,12 @@
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
+%hamilton jacobi velma y una paso intermedio es resolver la ecuación de viscosidad
 
+\begin{bibunit}[abbrv]
+	\nocite{Lions1971}
+	\putbib
+\end{bibunit}
 	\begin{bibunit}[abbrv]
 		\nocite{Wendell2006}
 		\putbib

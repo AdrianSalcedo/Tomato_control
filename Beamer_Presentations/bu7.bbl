@@ -1,9 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Fredi2010}
-F.~Tröltzsch.
-\newblock {\em Optimal Control of Partial Differential Equations}.
-\newblock Graduate Studies in Mathematics 112. American Mathematical Society,
-  2010.
+\bibitem{Bokil2019optimal}
+V.~Bokil, L.~Allen, M.~Jeger, and S.~Lenhart.
+\newblock Optimal control of a vectored plant disease model for a crop with
+  continuous replanting.
+\newblock {\em Journal of biological dynamics}, pages 1--29, 2019.
 
 \end{thebibliography}

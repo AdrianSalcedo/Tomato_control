@@ -1,8 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Wendell2006}
-H.~M.~S. Wendell H.~Fleming.
-\newblock {\em Controlled Markov Processes and Viscosity Solutions}.
-\newblock Applications of mathematics 25. Springer, 2nd ed edition, 2006.
+\bibitem{Lions1971}
+J.~L. Lions.
+\newblock {\em Optimal Control of Systems Governed by Partial Differential
+  Equations}.
+\newblock Grundlehren Der Mathematishen Wissenschaften 170. Springer, 1971.
 
 \end{thebibliography}

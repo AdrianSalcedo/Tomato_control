@@ -1,10 +1,9 @@
 \begin{thebibliography}{1}
 
-\bibitem{Grandits2019}
-P.~Grandits, R.~M. Kovacevic, and V.~M. Veliov.
-\newblock {Optimal control and the value of information for a stochastic
-  epidemiological SIS-model}.
-\newblock {\em Journal of Mathematical Analysis and Applications},
-  476(2):665--695, aug 2019.
+\bibitem{yong1999stochastic}
+J.~Yong and X.~Y. Zhou.
+\newblock {\em Stochastic controls: Hamiltonian systems and HJB equations},
+  volume~43.
+\newblock Springer Science \& Business Media, 1999.
 
 \end{thebibliography}

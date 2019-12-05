@@ -47,7 +47,7 @@ c_2 = 1.1
 
 name_file_1 = 'figure_1_tomato_one_control.eps'
 
-name_file_1 = 'figure_1_tomato_one_control.pdf'
+#name_file_1 = 'figure_1_tomato_one_control.pdf'
 
 
 #
@@ -92,7 +92,8 @@ ax2.set_xlabel(r'Time(days)')
 plt.tight_layout()
 #
 fig = mpl.pyplot.gcf()
-fig.set_size_inches(5.5, 5.5 / 1.618)
+#fig.set_size_inches(5.5, 5.5 / 1.618)
+fig.set_size_inches(4.5, 4.5 / 1.618)
 fig.savefig(name_file_1,
             # additional_artists=art,
             bbox_inches="tight")
