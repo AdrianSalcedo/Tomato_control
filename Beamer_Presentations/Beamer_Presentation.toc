@@ -4,7 +4,7 @@
 \beamer@sectionintoc {3}{Epidemical Model}{18}{0}{3}
 \beamer@subsectionintoc {3}{2}{Model without control}{25}{0}{3}
 \beamer@subsectionintoc {3}{3}{Controlled Model}{30}{0}{3}
-\beamer@sectionintoc {4}{Existence Theory}{34}{0}{4}
+\beamer@sectionintoc {4}{Existence Control Theory}{34}{0}{4}
 \beamer@sectionintoc {5}{Optimal Control Characterization}{40}{0}{5}
 \beamer@sectionintoc {6}{Simulations}{45}{0}{6}
 \beamer@sectionintoc {7}{Perspective}{51}{0}{7}

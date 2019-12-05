@@ -1,9 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{yong1999stochastic}
-J.~Yong and X.~Y. Zhou.
-\newblock {\em Stochastic controls: Hamiltonian systems and HJB equations},
-  volume~43.
-\newblock Springer Science \& Business Media, 1999.
+\bibitem{Wendell2006}
+H.~M.~S. Wendell H.~Fleming.
+\newblock {\em Controlled Markov Processes and Viscosity Solutions}.
+\newblock Applications of mathematics 25. Springer, 2nd ed edition, 2006.
 
 \end{thebibliography}

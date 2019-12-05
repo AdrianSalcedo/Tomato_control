@@ -8,7 +8,8 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-\begin{frame}{Plant Model without control}{Tomato Leaf Curl Virus Disease Using an Epidemiological Model}
+\begin{frame}[plain]
+	\frametitle{Plant Model without control}
 		\begin{textblock*}{60mm}(65mm,25mm)
 			\includegraphics[width=\linewidth]{Feathergraphics/plant_diagram.eps}
 		\end{textblock*}
@@ -16,8 +17,8 @@
 			\begin{graybox}{Hypothesis:}
 				
 				\begin{itemize}
-					\item<1-> Remove from latent and infected plants,
-					\item<2-> plants become latent by infected vectors,
+					\item<1-> Plants become latent by infected vectors,
+					\item<2-> replanting latent and infected plants,
 					\item<3-> latent plants become infectious plants,
 					\item<4-> vectors become infected by infected plants,
 					\item<5-> vectors die or depart per day,
@@ -49,40 +50,24 @@
 			\end{greenbox}
 		\end{textblock*}
 		\only<1>{
-			\begin{textblock*}{50mm}(63mm,5mm)
+			\begin{textblock*}{50mm}(65mm,5mm)
 				\begin{tabular}{|c |c |l |} 
 					\hline
-					Par. & Unit & Descrip. \\ [0.5ex] 
+					Par. & Unit & value \\ [0.5ex] 
 					\hline
-					$\beta_p$ & vector$^{-1}$day$^{-1}$ & plants became
-						\\
-							&&latently infected 
-						\\
-							&&rate \\ 
+					$\beta_p$ & vector$^{-1}$day$^{-1}$ & 0.1\\ 
 					\hline
-					$r$ & day$^{-1}$ &  replanting rate \\
+					$r$ & day$^{-1}$ & 0.01 \\
 					\hline
-					$b$ & day$^{-1}$ & latent class
-						\\ 
-							&&to the infectious
-						\\
-							&&class rate\\
+					$b$ & day$^{-1}$ & 0.075\\
 					\hline
-					$\gamma$ & day$^{-1}$ & vector die
-					\\ 
-						&&or depart rate  \\
+					$\gamma$ & day$^{-1}$ & 0.06\\
 					\hline
-					$\mu$ & plant$^{-1}$day$^{-1}$ & immigration rate \\
+					$\mu$ & plant$^{-1}$day$^{-1}$ & 0.3\\
 					\hline
-					$\theta$ & proportion & proportion of
-					\\
-					 	&&infected vector
-					\\
-					 	&&arrival to crop  \\
+					$\theta$ & proportion & 0.2\\
 					\hline
-					$\beta_v$ & plant$^{-1}$day$^{-1}$ & vector infectious
-					\\
-						&&acquisition rate\\ 
+					$\beta_v$ & plant$^{-1}$day$^{-1}$ & 0.003\\ 
 					\hline
 				\end{tabular}
 			\end{textblock*}
@@ -95,7 +80,7 @@
 		}
 	\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\begin{frame}
+	\begin{frame}[plain]
 	
 			\begin{textblock*}{55mm}(5mm,18mm)	
 				\only<1,2,3>
@@ -146,10 +131,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Controlled Model}
 
-	\begin{frame}[plain]%{Plant Model with control}{Tomato Leaf Curl Virus Disease Using an Epidemiological Model}
+	\begin{frame}[plain]\frametitle{Plant Model with control}
 		\only<1,2,3>
 		{
-			\begin{textblock*}{70mm}(1mm,5mm)
+			\begin{textblock*}{70mm}(1mm,10mm)
 				\begin{greenbox}{}
 					\begin{align*}
 						\frac{dS_p}{dt} &=
@@ -182,7 +167,7 @@
 		}
 		\only<3>
 		{
-			\begin{textblock*}{115mm}(8mm,60mm)
+			\begin{textblock*}{115mm}(8mm,65mm)
 				\begin{yellowbox}{Cost Functional}
 					\begin{align*}
 					\int_{0}^T	(A_1 I_p(t) + A_2 L_p(t) + A_3 I_v(t) + c_1 u_1(t)^2 + c_2 u_2(t)^2 + c_3 u_3(t)^2) dt,
@@ -193,7 +178,7 @@
 		\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{frame}[plain]
-		\begin{textblock*}{120mm}(2mm,0mm)
+		\begin{textblock*}{120mm}(2mm,2mm)
 			\begin{yellowbox}{OC}
 				\begin{align*}
 				\min_{\bar{u}(\cdot)\in \tilde{\mathcal{U}}_{x_0}[t_0,T]}J(u_1,u_2,u_3)

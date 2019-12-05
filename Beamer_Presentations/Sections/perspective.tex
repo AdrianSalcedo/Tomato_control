@@ -1,5 +1,5 @@
 \begin{frame}[plain]
-	\frametitle{Perspective}
+	\frametitle{Stochastic control theory}
 	\begin{textblock*}{100mm}(15mm,10mm)
 		\begin{graybox}{}
 			$(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$,\\ $W(t):m\text{-dimensional Brownian motion}$.
@@ -24,12 +24,12 @@
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\begin{textblock*}{90mm}(20mm,20mm)
-		\begin{graybox}{Definition}
+\begin{frame}[plain]
+	\begin{textblock*}{90mm}(20mm,15mm)
+		\begin{graybox}{Definition (weak formulation)}
 			 A 6-tuple $\pi=(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P},W(\cdot),u(\cdot))$, $u(\cdot)$ is  a w-admissible control, $(u(\cdot),x(\cdot))$ is a w-admissible pair, if
 			\begin{itemize}
-				\item $(\Omega,\mathscr{F},\mathbb{P})$ is a filtered probability space satisfying the usual conditions,
+				\item $(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$ is a filtered probability space satisfying the usual conditions,
 				\item $W(t)$ is an $m$-dimensional standard Brownian motion defined on $(\Omega,\mathscr{F},\{\mathscr{F}_t\}_{t\geq 0},\mathbb{P})$,
 				\item $u(\cdot)$ is an $\{\mathscr{F}_t\}_{t\geq 0}\text{-adapted}$ process on $(\Omega,\mathscr{F},\mathbb{P})$ taking values in $U$,
 				\item $x(\cdot)$ is unique solution,
@@ -40,7 +40,7 @@
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+\begin{frame}[plain]
 		\begin{textblock*}{80mm}(25mm,20mm)
 		\begin{yellowbox}{}
 			\begin{equation*}
@@ -50,30 +50,39 @@
 	\end{textblock*}
 	
 	
-	\begin{textblock*}{90mm}(20mm,45mm)
-		\begin{graybox}{$(WS)^w$}
-			\begin{equation*}
-				J(\bar{\pi})=\inf_{\pi\in \mathcal{U}^w_{ad}[0,T]} J(\pi)
-			\end{equation*}
-			s.t.
-			\begin{align*}
-				dx(t)&=
-				f(t,u(t),x(t))dt+\sigma(t,u(t),x(t))dW(t)\\
-				x(0)&=
-				x_0,
-			\end{align*}
-		\end{graybox}
+	\begin{textblock*}{90mm}(20mm,43mm)
+		\begin{graybox}{$(WS)$}
+				\begin{equation*}
+					J(\bar{\pi})=\inf_{\pi\in \mathcal{U}^w_{ad}[0,T]} J(\pi)
+					\tag{*}
+				\end{equation*}
+				s.t.
+				\begin{align*}
+					dx(t)&=
+					f(t,u(t),x(t))dt+\sigma(t,u(t),x(t))dW(t)\\
+					x(0)&=
+					x_0,
+				\end{align*}
+				\tcblower
+					problem (WS) is finite, if r.h.s. of (*) is finite. 
+			\end{graybox}
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
-	\begin{textblock*}{110mm}(15mm,15mm)
+	\begin{textblock*}{110mm}(10mm,10mm)
 		\begin{graybox}{Hypothesis:}
 			\begin{enumerate}[(\textbf{{SE}}-1)]
 				\item
 					$(U,d)$ is a compact metric space and $T>0$,
 				\item
-					$f,\sigma,g$, and $h$ are all continous, and $\exists L>0$ s.t. $\psi(t,u,x)=f(t,u,x),\sigma(t,u,x),g(t,u,x),h(x)$ are lipchitz in $x$ $\forall t \in [0,T]$,$u\in U$, $|\psi(t,u,0)|\leq L$ $\forall (t,u)\in [0,T]\times U$.
+					$f,\sigma,g$, and $h$ are all continous, and $\exists L>0$ s.t. $\psi(t,u,x)=\{f(t,u,x),\sigma(t,u,x),g(t,u,x),h(x)\}$, 
+					
+					\begin{align*}
+						|\psi(t,u,x)-\psi(t,u,\hat{x})|&\leq L|x-\hat{x}|,\\
+						&\forall t\in [0,T], x,\hat{x}\in \mathbb{R}^n,u\in U,\\
+						|\psi(t,u,0)|&\leq L \forall (t,u)\in[0,T]\times U.
+					\end{align*}  
 				\item
 					$\forall (t,x)\in [0,T]\times \mathbb{R}^n$, the set
 					\begin{align*}
@@ -88,11 +97,42 @@
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
+\begin{frame}[plain]
 	
 	\begin{textblock*}{100mm}(15mm,20mm)
 		\begin{graybox}{Existence Theorem (weak formulation)}
 			Under ($\mathbf{SE}$1)-($\mathbf{SE}$4), if (WS) is finite, then it admits an optimal control.
 		\end{graybox}
 	\end{textblock*}
+
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain]
+	\begin{itemize}
+		\item<1-> Viscosity solutons
+		\item<2-> Optimal Control of PDE.
+	\end{itemize}
+	\begin{itemize}
+		\item<1-> 	\begin{bibunit}[abbrv]
+						\nocite{Wendell2006}
+						\putbib
+					\end{bibunit}
+		\item<2->	\begin{bibunit}[abbrv]
+						\nocite{Fredi2010}
+						\putbib
+					\end{bibunit}
+	\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[plain]\frametitle{Source code}
+	\qrset{link, height=4.5cm}
+	\qrcode{https://github.com/AdrianSalcedo/Tomato_control}
+	\begin{textblock*}{60mm}(60mm,40mm)
+		\begin{yellowbox}{}
+			https://github.com/AdrianSalcedo\\/Tomato\_control
+		\end{yellowbox}
+	\end{textblock*}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,9 +1,8 @@
 \begin{thebibliography}{1}
 
-\bibitem{Bokil2019optimal}
-V.~Bokil, L.~Allen, M.~Jeger, and S.~Lenhart.
-\newblock Optimal control of a vectored plant disease model for a crop with
-  continuous replanting.
-\newblock {\em Journal of biological dynamics}, pages 1--29, 2019.
+\bibitem{Wendell2006}
+H.~M.~S. Wendell H.~Fleming.
+\newblock {\em Controlled Markov Processes and Viscosity Solutions}.
+\newblock Applications of mathematics 25. Springer, 2nd ed edition, 2006.
 
 \end{thebibliography}
