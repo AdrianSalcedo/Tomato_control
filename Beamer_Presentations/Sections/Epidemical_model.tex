@@ -9,7 +9,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 \begin{frame}[plain]
-	\frametitle{Plant Model without control}
+	\frametitle{Plant model without control}
 		\begin{textblock*}{60mm}(65mm,25mm)
 			\includegraphics[width=\linewidth]{Feathergraphics/plant_diagram.eps}
 		\end{textblock*}
@@ -49,7 +49,7 @@
 				\end{align*}
 			\end{greenbox}
 		\end{textblock*}
-		\only<1>{
+		\only<2>{
 			\begin{textblock*}{50mm}(65mm,5mm)
 				\begin{tabular}{|c |c |l |} 
 					\hline
@@ -72,7 +72,12 @@
 				\end{tabular}
 			\end{textblock*}
 		}
-		\only<2>
+		\only<1>{
+			\begin{textblock*}{60mm}(65mm,5mm)
+				\includegraphics[width=\linewidth]{Feathergraphics/plant_diagram.eps}
+			\end{textblock*}
+		}
+		\only<3>
 		{
 			\begin{textblock*}{55mm}(70mm,20mm)
 				\includegraphics[width=\linewidth]{Feathergraphics/Simulation_data.eps}
@@ -131,8 +136,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Controlled Model}
 
-	\begin{frame}[plain]\frametitle{Plant Model with control}
-		\only<1,2,3>
+	\begin{frame}[plain]\frametitle{Controlled model}
+		\only<1,2>
+		{
+			\begin{textblock*}{70mm}(1mm,10mm)
+			\begin{greenbox}{}
+				\begin{align*}
+				\frac{dS_p}{dt} &=
+				-\beta_p S_p I_v +\textcolor{capri}{r}(L_p +  I_p),\\
+				\frac{dL_p}{dt} &= 
+				\beta_p S_p I_v -b L_p-\textcolor{capri}{r} L_p,\\
+				\frac{dI_p}{dt} &=
+				b L_p - \textcolor{capri}{r} I_p,\\
+				\frac{dS_v}{dt} &=
+				-\beta_v S_v I_p - \textcolor{cadmiumorange}{\gamma} S_v   +(1-\theta)\mu,\\
+				\frac{dI_v}{dt} &=
+				\beta_v S_v I_p -\textcolor{cadmiumorange}{\gamma} I_v	+\theta\mu,\\
+				S_p(0) &= S_{p_0}, L_p(0) = L_{p_0}, I_p(0) = I_{p_0},\\
+				S_v(0) &= S_{v_0}, I_v(0) = I_{v_0}.
+				\end{align*}
+			\end{greenbox}
+		\end{textblock*}
+		
+		}
+		\only<3,4>
 		{
 			\begin{textblock*}{70mm}(1mm,10mm)
 				\begin{greenbox}{}
@@ -151,7 +178,7 @@
 				\end{greenbox}
 			\end{textblock*}
 		}
-		\only<2,3>
+		\only<2,3,4>
 		{
 			\begin{textblock*}{53mm}(73mm,10mm)
 				\begin{yellowbox}{Controls:}
@@ -165,7 +192,7 @@
 				\end{yellowbox}
 			\end{textblock*}
 		}
-		\only<3>
+		\only<4>
 		{
 			\begin{textblock*}{115mm}(8mm,65mm)
 				\begin{yellowbox}{Cost Functional}
@@ -181,7 +208,7 @@
 		\begin{textblock*}{120mm}(2mm,2mm)
 			\begin{yellowbox}{OC}
 				\begin{align*}
-				\min_{\bar{u}(\cdot)\in \tilde{\mathcal{U}}_{x_0}[t_0,T]}J(u_1,u_2,u_3)
+				\min_{\bar{u}(\cdot)\in \mathcal{U}_{x_0}[t_0,T]}J(u_1,u_2,u_3)
 				\end{align*}
 				s.t.
 				\begin{equation*}

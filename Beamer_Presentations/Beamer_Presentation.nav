@@ -9,92 +9,92 @@
 \headcommand {\beamer@framepages {3}{4}}
 \headcommand {\slideentry {1}{1}{4}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{1}{5}{6/16}{}{0}}
-\headcommand {\beamer@framepages {6}{16}}
-\headcommand {\beamer@sectionpages {3}{16}}
-\headcommand {\beamer@subsectionpages {3}{16}}
-\headcommand {\sectionentry {2}{Objetive}{17}{Objetive}{0}}
-\headcommand {\slideentry {2}{1}{6}{17/17}{}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@sectionpages {17}{17}}
-\headcommand {\beamer@subsectionpages {17}{17}}
-\headcommand {\sectionentry {3}{Epidemical Model}{18}{Epidemical Model}{0}}
-\headcommand {\slideentry {3}{1}{7}{18/18}{}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {3}{1}{8}{19/24}{}{0}}
-\headcommand {\beamer@framepages {19}{24}}
-\headcommand {\beamer@subsectionpages {18}{24}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{25}{Model without control}}
-\headcommand {\slideentry {3}{2}{1}{25/26}{Model without control}{0}}
-\headcommand {\beamer@framepages {25}{26}}
-\headcommand {\slideentry {3}{2}{2}{27/29}{Model without control}{0}}
-\headcommand {\beamer@framepages {27}{29}}
-\headcommand {\beamer@subsectionpages {25}{29}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{30}{Controlled Model}}
-\headcommand {\slideentry {3}{3}{1}{30/32}{Controlled Model}{0}}
-\headcommand {\beamer@framepages {30}{32}}
+\headcommand {\slideentry {1}{1}{5}{6/14}{}{0}}
+\headcommand {\beamer@framepages {6}{14}}
+\headcommand {\beamer@sectionpages {3}{14}}
+\headcommand {\beamer@subsectionpages {3}{14}}
+\headcommand {\sectionentry {2}{Objetive}{15}{Objetive}{0}}
+\headcommand {\slideentry {2}{1}{6}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@sectionpages {15}{15}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\sectionentry {3}{Epidemical Model}{16}{Epidemical Model}{0}}
+\headcommand {\slideentry {3}{1}{7}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {3}{1}{8}{17/22}{}{0}}
+\headcommand {\beamer@framepages {17}{22}}
+\headcommand {\beamer@subsectionpages {16}{22}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{23}{Model without control}}
+\headcommand {\slideentry {3}{2}{1}{23/25}{Model without control}{0}}
+\headcommand {\beamer@framepages {23}{25}}
+\headcommand {\slideentry {3}{2}{2}{26/28}{Model without control}{0}}
+\headcommand {\beamer@framepages {26}{28}}
+\headcommand {\beamer@subsectionpages {23}{28}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{29}{Controlled Model}}
+\headcommand {\slideentry {3}{3}{1}{29/32}{Controlled Model}{0}}
+\headcommand {\beamer@framepages {29}{32}}
 \headcommand {\slideentry {3}{3}{2}{33/33}{Controlled Model}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@sectionpages {18}{33}}
-\headcommand {\beamer@subsectionpages {30}{33}}
+\headcommand {\beamer@sectionpages {16}{33}}
+\headcommand {\beamer@subsectionpages {29}{33}}
 \headcommand {\sectionentry {4}{Existence Control Theory}{34}{Existence Control Theory}{0}}
 \headcommand {\slideentry {4}{3}{3}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
 \headcommand {\slideentry {4}{3}{4}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {4}{3}{5}{36/38}{}{0}}
-\headcommand {\beamer@framepages {36}{38}}
-\headcommand {\slideentry {4}{3}{6}{39/39}{}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\beamer@sectionpages {34}{39}}
-\headcommand {\beamer@subsectionpages {34}{39}}
-\headcommand {\sectionentry {5}{Optimal Control Characterization}{40}{Optimal Control Characterization}{0}}
-\headcommand {\slideentry {5}{3}{7}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {5}{3}{8}{41/41}{}{0}}
+\headcommand {\slideentry {4}{3}{5}{36/40}{}{0}}
+\headcommand {\beamer@framepages {36}{40}}
+\headcommand {\slideentry {4}{3}{6}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{3}{9}{42/42}{}{0}}
+\headcommand {\beamer@sectionpages {34}{41}}
+\headcommand {\beamer@subsectionpages {34}{41}}
+\headcommand {\sectionentry {5}{Optimal Control Characterization}{42}{Optimal Control Characterization}{0}}
+\headcommand {\slideentry {5}{3}{7}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {5}{3}{10}{43/43}{}{0}}
+\headcommand {\slideentry {5}{3}{8}{43/43}{}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {5}{3}{11}{44/44}{}{0}}
+\headcommand {\slideentry {5}{3}{9}{44/44}{}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@sectionpages {40}{44}}
-\headcommand {\beamer@subsectionpages {40}{44}}
-\headcommand {\sectionentry {6}{Simulations}{45}{Simulations}{0}}
-\headcommand {\slideentry {6}{3}{12}{45/45}{}{0}}
-\headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {6}{3}{13}{46/46}{}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {6}{3}{14}{47/47}{}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {6}{3}{15}{48/48}{}{0}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {6}{3}{16}{49/49}{}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {6}{3}{17}{50/50}{}{0}}
+\headcommand {\slideentry {5}{3}{10}{45/46}{}{0}}
+\headcommand {\beamer@framepages {45}{46}}
+\headcommand {\slideentry {5}{3}{11}{47/49}{}{0}}
+\headcommand {\beamer@framepages {47}{49}}
+\headcommand {\beamer@sectionpages {42}{49}}
+\headcommand {\beamer@subsectionpages {42}{49}}
+\headcommand {\sectionentry {6}{Simulations}{50}{Simulations}{0}}
+\headcommand {\slideentry {6}{3}{12}{50/50}{}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\beamer@sectionpages {45}{50}}
-\headcommand {\beamer@subsectionpages {45}{50}}
-\headcommand {\sectionentry {7}{Perspective}{51}{Perspective}{0}}
-\headcommand {\slideentry {7}{3}{18}{51/51}{}{0}}
+\headcommand {\slideentry {6}{3}{13}{51/51}{}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {7}{3}{19}{52/52}{}{0}}
+\headcommand {\slideentry {6}{3}{14}{52/52}{}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {7}{3}{20}{53/53}{}{0}}
+\headcommand {\slideentry {6}{3}{15}{53/53}{}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {7}{3}{21}{54/54}{}{0}}
+\headcommand {\slideentry {6}{3}{16}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {7}{3}{22}{55/55}{}{0}}
+\headcommand {\slideentry {6}{3}{17}{55/55}{}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {7}{3}{23}{56/57}{}{0}}
-\headcommand {\beamer@framepages {56}{57}}
-\headcommand {\slideentry {7}{3}{24}{58/58}{}{0}}
+\headcommand {\beamer@sectionpages {50}{55}}
+\headcommand {\beamer@subsectionpages {50}{55}}
+\headcommand {\sectionentry {7}{Perspective}{56}{Perspective}{0}}
+\headcommand {\slideentry {7}{3}{18}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {7}{3}{19}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {7}{3}{20}{58/58}{}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {7}{3}{25}{59/59}{}{0}}
+\headcommand {\slideentry {7}{3}{21}{59/59}{}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\beamer@partpages {1}{59}}
-\headcommand {\beamer@subsectionpages {51}{59}}
-\headcommand {\beamer@sectionpages {51}{59}}
-\headcommand {\beamer@documentpages {59}}
+\headcommand {\slideentry {7}{3}{22}{60/60}{}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\slideentry {7}{3}{23}{61/61}{}{0}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {7}{3}{24}{62/62}{}{0}}
+\headcommand {\beamer@framepages {62}{62}}
+\headcommand {\slideentry {7}{3}{25}{63/63}{}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\beamer@partpages {1}{63}}
+\headcommand {\beamer@subsectionpages {56}{63}}
+\headcommand {\beamer@sectionpages {56}{63}}
+\headcommand {\beamer@documentpages {63}}
 \headcommand {\gdef \inserttotalframenumber {34}}

@@ -24,16 +24,17 @@
 \begin{frame}[plain]
 	\begin{textblock*}{110mm}(10mm,20mm)
 		\begin{graybox}{Problem $(OC)$}
-			$(t_0,x_0)\in \mathbb{R}_{+}\times \mathbb{R}^n$ with $\tilde{\mathcal{U}}_{x_0}[t_0,T]\neq\emptyset$, find a $\bar{u}(\cdot)\in \tilde{\mathcal{U}}_{x_0}[t_0,T]$ s.t.
+			$(t_0,x_0)\in \mathbb{R}_{+}\times \mathbb{R}^n$ with $\mathcal{U}_{x_0}[t_0,T]\neq\emptyset$, find a $\bar{u}(\cdot)\in \mathcal{U}_{x_0}[t_0,T]$ s.t.
 			
 			\begin{equation*}
-				J(t_0,x_0;\bar{u}(\cdot))=\inf_{u(\cdot)\in \tilde{\mathcal{U}}_{x_0}[t_0,T]} J(t_0,x_0;u(\cdot)).
+				J(t_0,x_0;\bar{u}(\cdot))=\inf_{u(\cdot)\in \mathcal{U}_{x_0}[t_0,T]} J(t_0,x_0;u(\cdot)).
 			\end{equation*}
 		\end{graybox}
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[plain]
+	\only<1,2,3,5>{
 	\begin{textblock*}{60mm}(5mm,5mm)
 		\begin{graybox}{Hypothesis:}
 			\begin{enumerate}[(\textbf{{C}}-1)]
@@ -71,6 +72,7 @@
 			\end{enumerate}	
 		\end{graybox}
 	\end{textblock*}
+	}
 	\only<2>
 	{
 		\begin{textblock*}{50mm}(75mm,5mm)
@@ -80,7 +82,7 @@
 			\end{yellowbox}
 		\end{textblock*}
 	}
-	\only<3>
+	\only<3,4>
 	{
 		\begin{textblock*}{50mm}(75mm,20mm)
 			\begin{yellowbox}{}
@@ -99,6 +101,12 @@
 				\bigcap_{\delta>0}\bar{co}\mathbf{E}(t,B_{\delta}(x))=\mathbf{E}(t,x)
 				\end{equation*}			
 			\end{yellowbox}
+		\end{textblock*}
+	}
+	\only<4>
+	{
+		\begin{textblock*}{60mm}(5mm,30mm)
+			\includegraphics[width=\linewidth]{Feathergraphics/Conjunto_E.eps}
 		\end{textblock*}
 	}
 \end{frame}
