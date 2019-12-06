@@ -38,12 +38,12 @@
 	\end{textblock*}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[plain]
-	\begin{textblock*}{120mm}(5mm,5mm)
+\begin{frame}[plain]\frametitle{Optimal control characterization}
+	\begin{textblock*}{120mm}(5mm,7mm)
 		\begin{graybox}{Pontryagin’s Maximum Principle}
 			Let ($\mathbf{C}$-1)-($\mathbf{C}$-4) hold. If $\bar{u}(t)$ and $\bar{x}(t)$ are optimal for the problem $(OC)$, then there exists a piecewise differentiable adjoint variable $\lambda(t)$ s.t.
 				\begin{equation*}
-					H(t,\bar{x}(t),u(t),\lambda(t))\leq H(t,\bar{x}(t),\bar{u}(t),\lambda(t))
+					 H(t,\bar{x}(t),\bar{u}(t),\lambda(t))=\min_{u(\cdot)\in \mathcal{U}_{x_0}[t_0,T]}H(t,\bar{x}(t),u(t),\lambda(t))
 				\end{equation*}
 			$\forall$ $u$ at $t$,
 
@@ -51,25 +51,18 @@
 					\lambda'(t) &= -\frac{\partial H(t,\bar{x}(t),\bar{u}(t),\lambda(t))}{\partial x},\\
 					\lambda(T) &= 0.
 				\end{align*}
+				\tcblower
+					$$\frac{\partial H}{\partial u_i}(t,\bar{x},\bar{u})=0.$$
 		\end{graybox}
 		
 	\end{textblock*}
-		\begin{textblock*}{75mm}(5mm,65mm)
+		\begin{textblock*}{75mm}(5mm,79mm)
 		\begin{yellowbox}{}
 			\begin{equation*}
 			H=g(t,x(t),u(t))+\langle \lambda(t),f(t,x(t),u(t))\rangle,
 			\end{equation*}
 		\end{yellowbox}
 	\end{textblock*}
-
-\begin{textblock*}{40mm}(85mm,63mm)
-	\begin{yellowbox}{Optimallity\\ Constraints:}
-		\begin{equation*}
-		\frac{\partial H}{\partial u_i}(t,\bar{x},\bar{u})=0.
-		\end{equation*}
-	\end{yellowbox}
-\end{textblock*}
-
 
 \end{frame}
 
